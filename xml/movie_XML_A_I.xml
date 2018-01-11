@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Mon Jan 08 12:46:46 CET 2018 -->
+
+
+
+<movies>
+        <movie id="1">
+                <title>Alien: Resurrection
+</title>
+                <genres>
+                        <genre>Action
+</genre>
+                        <genre>Horror</genre>
+                        <genre>
+Sci-Fi</genre>
+                </genres>
+                <directors>
+                        <director>
+Jean-Pierre Jeunet </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>
+1997</year>
+                <actors>
+                        <actor>
+Sigourney Weaver</actor>
+                        <actor>
+Winona Ryder</actor>
+                        <actor>
+Dominique Pinon</actor>
+                </actors>
+                <rating>6,2
+</rating>
+                <plot>
+200 years after her death, Ellen Ripley is revived as a powerful human/alien hybrid clone who must continue her battle against the aliens. Along with a crew of space pirates, Ripley must also prevent the deadly aliens from reaching Earth.</plot>
+                <image>img_id1.jpg
+</image>
+        </movie>
+         
+         <movie id="2">
+                <title>
+Back to the Future</title>
+                <genres>
+                        <genre>Adventure</genre>
+                        <genre>Comedy</genre>
+                        <genre>
+Sci-Fi
+
+</genre>
+                </genres>
+                <directors>
+                        <director>
+Robert Zemeckis</director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>
+1985</year>
+                <actors>
+                        <actor>Michael J. Fox</actor>
+                        <actor>
+Christopher Lloyd
+</actor>
+                        <actor>
+Lea Thompson</actor>
+                </actors>
+                <rating>8,5
+</rating>
+                <plot>
+Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown. </plot>
+                <image>img_id2.jpg
+</image>
+        </movie>
+  
+        <movie id="3">
+                <title>
+American History X</title>
+                <genres>
+                        <genre> Crime</genre>
+                        <genre>Drama
+
+</genre>
+                </genres>
+                <directors>
+                        <director>
+ Tony Kaye </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>
+1998</year>
+                <actors>
+                        <actor>Edward Norton
+</actor>
+                        <actor>Edward Furlong
+</actor>
+                        <actor>
+Beverly D'Angelo</actor>
+                </actors>
+                <rating>8,5
+</rating>
+                <plot>
+A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.  </plot>
+                <image>img_id3.jpg
+</image>
+        </movie>
+                          
+        <movie id="4">
+                <title>Batman Begins
+</title>
+                <genres>
+                        <genre>Action
+</genre>
+                        <genre>Adventure
+</genre>
+                        <genre>Thriller
+</genre>
+                </genres>
+                <directors>
+                        <director>
+ Christopher Nolan </director>
+                </directors>
+                <land>
+USA</land>
+                <land>
+UK</land>
+                <year>2005
+</year>
+                <actors>
+                        <actor>
+ Christian Bale</actor>
+                        <actor>Michael Caine
+</actor>
+                        <actor>
+Ken Watanabe</actor>
+                </actors>
+                <rating>
+8,3</rating>
+                <plot>After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it. </plot>
+                <image>img_id4.jpg
+</image>
+        </movie>
+         
+        <movie id="5">
+                <title>Django Unchained
+</title>
+                <genres>
+                        <genre>
+ Drama</genre>
+                        <genre>
+Western</genre>
+                </genres>
+                <directors>
+                        <director>
+ Quentin Tarantino </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>2015
+</year>
+                <actors>
+                        <actor> Jamie Foxx
+</actor>
+                        <actor>Christoph Waltz
+</actor>
+                        <actor>Leonardo DiCaprio
+</actor>
+                </actors>
+                <rating>8,4
+</rating>
+                <plot>
+A German dentist buys the freedom of a slave and trains him with the intent to make him his deputy bounty hunter. Instead, he is led to the site of the slave's wife who belongs to a ruthless plantation owner.</plot>
+                <image>img_id5.jpg
+</image>
+        </movie>
+
+        <movie id="6">
+                <title>Drive
+</title>
+                <genres>
+                        <genre>Crime
+</genre>
+                        <genre>
+Drama</genre>
+                </genres>
+                <directors>
+                        <director>
+ Nicolas Winding Refn </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>
+2011</year>
+                <actors>
+                        <actor> Ryan Gosling</actor>
+                        <actor> Carey Mulligan
+</actor>
+                        <actor>Bryan Cranston</actor>
+                </actors>
+                <rating>
+7,8</rating>
+                <plot>
+A mysterious man who has multiple jobs as a garage mechanic, a Hollywood stuntman and a getaway driver seems to be trying to escape his shady past as he falls for his neighbor - whose husband is in prison and who's looking after her child alone. Meanwhile, his garage mechanic boss is trying to set up a race team using gangland money, which implicates our driver as he is to be used as the race team's main driver. Our hero gets more than he bargained for when he meets the man who is married to the woman he loves.</plot>
+                <image>img_id6.jpg
+</image>
+        </movie>
+                  
+        <movie id="7">
+                <title>Eternal Sunshine of the Spotless Mind
+</title>
+                <genres>
+                        <genre>Drama
+</genre>
+                        <genre>
+Romance</genre>
+                        <genre>
+Sci-Fi</genre>
+                </genres>
+                <directors>
+                        <director>
+ Michel Gondry </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>2004
+</year>
+                <actors>
+                        <actor>
+ Jim Carrey</actor>
+                        <actor>
+Kate Winslet</actor>
+                        <actor>
+Tom Wilkinson</actor>
+                </actors>
+                <rating>8,3
+</rating>
+                <plot>
+A man, Joel Barish, heartbroken that his girlfriend Clementine underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realizes that he still loves her, and may be too late to correct his mistake.</plot>
+                <image>img_id7.jpg
+</image>
+        </movie>
+  
+         <movie id="8">
+                <title>Fight Club</title>
+                <genres>
+                        <genre>Drama
+</genre>
+                </genres>
+                <directors>
+                        <director>
+David Fincher </director>
+                </directors>
+                <land>
+USA</land>
+                <land>G
+ermany</land>
+                <year>1999
+</year>
+                <actors>
+                        <actor>
+ Brad Pitt</actor>
+                        <actor>Edward Norton
+</actor>
+                        <actor>Meat Loaf</actor>
+                </actors>
+                <rating>
+8,8</rating>
+                <plot>
+A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is.</plot>
+                <image>
+img_id7.jpg</image>
+        </movie>
+    
+        <movie id="9">
+                <title>Fear and Loathing in Las Vegas
+</title>
+                <genres>
+                        <genre> Adventure
+</genre>
+                        <genre>
+Comedy</genre>
+                        <genre>Drama
+</genre>
+                </genres>
+                <directors>
+                        <director>
+ Terry Gilliam </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>1998
+</year>
+                <actors>
+                        <actor> Johnny Depp
+</actor>
+                        <actor>
+Benicio Del Toro</actor>
+                        <actor>
+Tobey Maguire</actor>
+                </actors>
+                <rating>7,7
+</rating>
+                <plot>
+The big-screen version of Hunter S. Thompson's seminal psychedelic classic about his road trip across Western America as he and his large Samoan lawyer searched desperately for the "American dream"... they were helped in large part by the huge amount of drugs and alcohol kept in their convertible, The Red Shark.</plot>
+                <image>
+img_id9.jpg</image>
+        </movie>
+ 
+        <movie id="10">
+                <title>Gladiator
+</title>
+                <genres>
+                        <genre>Action</genre>
+                        <genre>
+Adventure</genre>
+                        <genre>Drama
+</genre>
+                </genres>
+                <directors>
+                        <director>
+ Ridley Scott </director>
+                </directors>
+                <land>
+USA</land>
+                <land>
+UK</land>
+                <year>2000
+</year>
+                <actors>
+                        <actor> Russell Crowe
+</actor>
+                        <actor>Joaquin Phoenix
+</actor>
+                        <actor>Connie Nielsen
+</actor>
+                </actors>
+                <rating>8,5
+</rating>
+                <plot>Maximus is a powerful Roman general, loved by the people and the aging Emperor, Marcus Aurelius. Before his death, the Emperor chooses Maximus to be his heir over his own son, Commodus, and a power struggle leaves Maximus and his family condemned to death. The powerful general is unable to save his family, and his loss of will allows him to get captured and put into the Gladiator games until he dies. The only desire that fuels him now is the chance to rise to the top so that he will be able to look into the eyes of the man who will feel his revenge.</plot>
+                <image>img_id10.jpg
+</image>
+        </movie>
+                                   
+        <movie id="11">
+                <title>Forrest Gump
+</title>
+                <genres>
+                        <genre>Drama
+</genre>
+                        <genre>Romance
+</genre>
+                </genres>
+                <directors>
+                        <director>
+ Robert Zemeckis </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>1994</year>
+                <actors>
+                        <actor> Tom Hanks</actor>
+                        <actor>
+Robin Wright</actor>
+                        <actor>
+Gary Sinise
+</actor>
+                </actors>
+                <rating>8,8
+</rating>
+                <plot>
+Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone. </plot>
+                <image>
+img_id11.jpg</image>
+        </movie>
+  
+        <movie id="12">
+                <title>Inglourious Basterds
+</title>
+                <genres>
+                        <genre>Adventure
+</genre>
+                        <genre>
+Drama</genre>
+                        <genre>
+War</genre>
+                </genres>
+                <directors>
+                        <director>
+ Quentin Tarantino </director>
+                </directors>
+                <land>
+USA</land>
+                <land>G
+ermany</land>
+                <year>2009
+</year>
+                <actors>
+                        <actor> Brad Pitt</actor>
+                        <actor>
+Diane Kruger</actor>
+                        <actor>Eli Roth
+
+</actor>
+                </actors>
+                <rating>8,3
+</rating>
+                <plot>
+In German-occupied France, young Jewish refugee Shosanna Dreyfus witnesses the slaughter of her family by Colonel Hans Landa. Narrowly escaping with her life, she plots her revenge several years later when German war hero Fredrick Zoller takes a rapid interest in her and arranges an illustrious movie premiere at the theater she now runs. With the promise of every major Nazi officer in attendance, the event catches the attention of the "Basterds", a group of Jewish-American guerrilla soldiers led by the ruthless Lt. Aldo Raine. As the relentless executioners advance and the conspiring young girl's plans are set in motion, their paths will cross for a fateful evening that will shake the very annals of history.</plot>
+                <image>
+img_id12.jpg</image>
+        </movie>
+ 
+        <movie id="13">
+                <title>Inception
+</title>
+                <genres>
+                        <genre>Action
+</genre>
+                        <genre>Adventure
+</genre>
+                        <genre>Sci-Fi
+</genre>
+                </genres>
+                <directors>
+                        <director>
+ Christopher Nolan </director>
+                </directors>
+                <land>
+USA </land>
+                <land>
+UK </land>
+                <year>2010
+</year>
+                <actors>
+                        <actor> Leonardo DiCaprio
+</actor>
+                        <actor>Joseph Gordon-Levitt
+</actor>
+                        <actor>Ellen Page
+</actor>
+                </actors>
+                <rating>8,8
+</rating>
+                <plot>
+Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible - inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.</plot>
+                <image>
+img_id13.jpg</image>
+        </movie>
+        
+        <movie id="14">
+                <title>Good Will Hunting
+</title>
+                <genres>
+                        <genre>
+Drama</genre>
+                </genres>
+                <directors>
+                        <director>
+ Gus Van Sant </director>
+                </directors>
+                <land>
+USA</land>
+               
+                <year>1997
+</year>
+                <actors>
+                        <actor> Robin Williams
+</actor>
+                        <actor>Matt Damon
+</actor>
+                        <actor>Ben Affleck
+</actor>
+                </actors>
+                <rating>8,3
+</rating>
+                <plot>
+A touching tale of a wayward young man who struggles to find his identity, living in a world where he can solve any problem, except the one brewing deep within himself, until one day he meets his soul mate who opens his mind and his heart.</plot>
+                <image>img_id14.jpg
+</image>
+        </movie>
+                           
+        <movie id="15">
+                <title>District 9
+</title>
+                <genres>
+                        <genre>Scie-Fi
+</genre>
+                        <genre>Thriller
+</genre>
+                </genres>
+                <directors>
+                        <director>
+ Neill Blomkamp </director>
+                </directors>
+                <land>
+South Africa</land>
+                <land>
+New Zealand</land>
+                <land>
+USA</land>
+                <land>
+Canada</land>
+                <year>2009
+</year>
+                <actors>
+                        <actor> Sharlto Copley</actor>
+                        <actor>David James
+</actor>
+                        <actor>Jason Cope
+</actor>
+                </actors>
+                <rating>
+8,0</rating>
+                <plot>
+In 1982, a massive star ship bearing a bedraggled alien population, nicknamed "The Prawns," appeared over Johannesburg, South Africa. Twenty-eight years later, the initial welcome by the human population has faded. The refugee camp where the aliens were located has deteriorated into a militarized ghetto called District 9, where they are confined and exploited in squalor. In 2010, the munitions corporation, Multi-National United, is contracted to forcibly evict the population with operative Wikus van der Merwe in charge. In this operation, Wikus is exposed to a strange alien chemical and must rely on the help of his only two new 'Prawn' friends.</plot>
+                <image>img_id15.jpg
+</image>
+        </movie>
+ 
+
+                  
+
+        <movie id="16">
+                <title>
+ Jumanji: Welcome to the Jungle
+</title>
+                <genres>
+                        <genre>
+Action</genre>
+                        <genre>
+Adventure
+</genre>
+                        <genre>
+Comedy
+</genre>
+                </genres>
+                <directors>
+                        <director>
+Jake Kasdan</director>
+                </directors>
+                <land>USA</land>
+                <year>
+2017
+ </year>
+                <actors>
+                        <actor>Dwayn Johnson</actor>
+                        <actor>
+ Karen Gillan</actor>
+                         <actor>
+Kevin Hart</actor>
+                </actors>
+                <rating>
+7,3
+</rating>
+                <plot>
+               Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.
+                </plot>
+                <image>img_id31.jpg
+</image>
+        </movie>
+
+
+        <movie id="17">
+                <title>
+Justice League</title>
+                <genres>
+                        <genre>
+Action
+</genre>
+                        <genre>
+Adventure</genre>
+                </genres>
+                <directors>
+                        <director>
+Zack Snyder</director>
+                </directors>
+                <land>
+USA</land>
+                <year>
+2017</year>
+                <actors>
+                        <actor>
+Ben Affleck</actor>
+                        <actor>
+Gal Gadot
+</actor>
+                        <actor>
+Henry Cavill</actor>
+                        <actor>
+Jason Momoa
+</actor>
+                        <actor>Ezra Miller</actor>
+                        <actor>
+Ray Fisher</actor>
+                </actors>
+                <rating>
+7,0</rating>
+                <plot>
+               Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy.
+                </plot>
+                <image>img_id17.jpg
+</image>
+        </movie>
+        
+         <movie id="18">
+                <title>Kaboom</title>
+                <genres>
+                        <genre>
+Comedy
+</genre>
+                        <genre>
+Mystery</genre>
+                        <genre>
+Romance</genre>
+                </genres>
+                <directors>
+                        <director>Gregg Araki</director>
+                </directors>
+                <land>
+USA
+                </land>
+                <year>
+1983
+</year>
+                <actors>
+                        <actor>
+Thomas Dekker</actor>
+                        <actor>Haley Bennett </actor>
+                         <actor>
+Chris Zylka</actor>
+                </actors>
+                <rating>
+5,7
+</rating>
+                <plot>
+                An ambisexual 18-year-old college student stumbles upon a monstrous conspiracy in a seemingly idyllic Southern California seaside town
+                </plot>
+                <image>img_id18.jpg</image>
+        </movie>
+        
+         <movie id="19">
+                <title>
+Kingsman: The Secret Service</title>
+                <genres>
+                         <genre>Action</genre>
+                         <genre>
+Adventure</genre>
+                          <genre>Comedy</genre>
+                </genres>
+                <directors>
+                        <director>Matthew Vaughn</director>
+                </directors>
+                <land>
+USA
+</land>
+                <year>
+2015</year>
+                <actors>
+                        <actor>Colin Firth</actor>
+                        <actor>Taron Egerton</actor>
+                        <actor>Samuel L. Jackson</actor>
+                </actors>
+                <rating>7,7
+</rating>
+                <plot>
+	 A spy organization recruits an unrefined, but promising street kid into the agency's ultra-competitive training program, just as a global threat emerges from a twisted tech genius.
+                </plot>
+                <image>img_id19.jpg</image>
+         </movie>
+         
+          <movie id="20">
+                <title>
+La La Land</title>
+                <genres>
+                        <genre>
+Comedy</genre>
+                         <genre>
+Drama</genre>
+                         <genre>
+Music</genre>
+                </genres>
+                <directors>
+                        <director>
+Damien Chazelle</director>
+                </directors>
+                <land>
+USA
+</land>
+                <year>
+2017</year>
+                <actors>
+                        <actor>Ryan Gosling</actor>
+                        <actor>
+Emma Stone</actor>
+                        <actor>
+Rosemarie DeWitt
+</actor>
+                </actors>
+                <rating>
+8,1
+                </rating>
+     	 <plot>
+     	 While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.
+                </plot>
+                <image>img_id20.jpg</image>
+         </movie>
+         
+          <movie id="21">
+                <title>
+Lady in the water</title>
+                <genres>
+                         <genre>
+Drama</genre>
+                         <genre>
+Fantasy
+</genre>
+                         <genre>
+Mystery
+</genre>
+                </genres>
+                <directors>
+                        <director>
+M. Night Shyamalan</director>
+                </directors>
+                <land>
+USA</land>
+                <year>
+2006</year>
+                <actors>
+                        <actor>
+Paul Giamatti </actor>
+                        <actor>
+Bryce Dallas Howard</actor>
+                         <actor>Jeffrey Wright</actor>
+                </actors>
+                <rating>
+5,6
+</rating>
+                <plot>
+	   Apartment building superintendent Cleveland Heep rescues what he thinks is a young woman from the pool he maintains. When he discovers that she is actually a character from a bedtime story who is trying to make the journey back to her home, he works with his tenants to protect his new friend from the creatures that are determined to keep her in our world.
+                </plot>
+                <image>img_id21.jpg</image>
+         </movie>
+         
+           <movie id="22">
+                <title>
+Nanny McPhee</title>
+                <genres>
+                         <genre>Comedy</genre>
+                         <genre>
+Family</genre>
+                          <genre>
+Fantasy</genre>
+                </genres>
+                <directors>
+                        <director>
+Kirk Jones</director>
+                </directors>
+                <land>
+USA</land>
+                <year>
+2005
+</year>
+                <actors>
+                        <actor>
+Emma Thompson</actor>
+                        <actor>
+Colin Firth
+</actor>
+                         <actor>
+Kelly Macdonald</actor>
+                        <actor>
+Thomas Brodie-Sangster</actor>
+                </actors>
+                <rating>
+6,6</rating>
+                <plot>
+                A governess uses magic to rein in the behavior of seven ne'er-do-well children in her charge.
+                </plot>
+                <image>
+img_id22.jpg</image>
+         </movie>
+         
+          <movie id="23">
+                <title>
+Mad Max: Fury Road</title>
+                <genres>
+                         <genre>
+Action</genre>
+                         <genre>
+Adventure
+</genre>
+                           <genre>
+Sci-Fi
+</genre>  
+                </genres>
+                <directors>
+                        <director>
+George Miller</director>
+                </directors>
+                <land>
+USA
+</land>
+                <year>
+2015
+</year>
+                <actors>
+                        <actor>
+Tom Hardy</actor>
+                        <actor>
+Charlize Theron</actor>
+                        <actor>Nicholas Hoult
+</actor>
+                </actors>
+                <rating>
+8,1
+</rating>
+                <plot>
+                A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.
+                </plot>
+                <image>
+img_id23</image>
+         </movie>
+         
+          <movie id="24">
+                <title>
+Madagascar</title>
+                <genres>
+                         <genre>Animation</genre>
+                         <genre>Adventure</genre>
+                         <genre>Comedy</genre>
+                </genres>
+                <directors>
+                        <director>Eric Darnell</director>
+                        <director>Tom McGrath </director> 
+                </directors>
+                <land>
+USA
+</land>
+                <year>
+2005</year>
+                <actors>
+                        <actor>Chris Rock</actor>
+                        <actor> Ben Stiller</actor>
+                         <actor>
+ David Schwimmer
+</actor>
+                </actors>
+                <rating>
+6,9
+</rating>
+                <plot>
+                Spoiled by their upbringing and unaware of what wildlife really is, four animals from the New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar.	
+                </plot>
+                <image>
+img_id24,jpg</image>
+         </movie>
+         
+          <movie id="25">
+                <title>
+N Is a Number: A Portrait of Paul Erdos</title>
+                <genres>
+                         <genre>Documentary</genre>
+                         <genre>
+Biography
+</genre>
+                </genres>
+                <directors>
+                        <director>
+George Paul Csicsery</director>
+                </directors>
+                <land>
+USA</land>
+                <year>
+1971
+</year>
+                <actors>
+                        <actor>
+Paul Erdoes</actor>
+                        <actor>
+, Ronald Graham</actor>
+                         <actor>
+Joel Spencer
+</actor>
+                </actors>
+                <rating>
+7,5</rating>
+                <plot>
+                N Is a Number: A Portrait of Paul Erdos is a 1993 biographical documentary about the life of mathematician Paul Erdos, directed by George Paul Csicsery.
+               </plot>
+                <image>
+img_id25.jpg</image>
+         </movie>
+         
+          <movie id="26">
+                <title>
+Oblivion</title>
+                <genres>
+                         <genre>
+Action
+</genre>
+                         <genre>
+Adventure
+</genre>
+                         <genre>
+Mystery</genre>
+                </genres>
+                <directors>
+                        <director>
+Joseph Kosinski
+</director>
+                </directors>
+                <land>
+USA
+</land>
+                <year>
+2013</year>
+                <actors>
+                        <actor>
+Tom Cruise
+</actor>
+                        <actor>
+ Morgan Freeman</actor>
+                         <actor>
+Andrea Riseborough</actor>
+                </actors>
+                <rating>
+7,0</rating>
+                <plot>
+                A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.
+                </plot>
+                <image>
+img_id26</image>
+         </movie>
+         
+          <movie id="27">
+                <title>
+Ocean's Eleven</title>
+                <genres>
+                         <genre>
+Crime
+</genre>
+                         <genre>
+Thriller
+</genre>
+                </genres>
+                <directors>
+                        <director>
+Steven Soderbergh</director>
+                </directors>
+                <land>
+USA  </land>
+                <year>
+2002
+</year>
+                <actors>
+                        <actor>
+George Clooney </actor>
+                        <actor>
+Brad Pitt</actor>
+                         <actor>
+Julia Roberts
+</actor>
+                </actors>
+                <rating>
+                7,0
+                </rating>
+                <plot>
+                Danny Ocean and his eleven accomplices plan to rob three Las Vegas casinos simultaneously.
+                </plot>
+                <image>
+img
+_id27</image>
+         </movie>
+         
+          <movie id="28">
+                <title>
+Pacific Rim </title>
+                <genres>
+                         <genre>
+Action
+</genre>
+                         <genre>
+Adventure
+</genre>
+                         <genre>Sci-Fi</genre>
+                </genres>
+                <directors>
+                        <director>
+Guillermo del Toro
+</director>
+                </directors>
+                 <land>
+USA</land>
+                <year>
+2013
+</year>
+                <actors>
+                        <actor>
+Idris Elba</actor>
+                        <actor>
+ Charlie Hunnam</actor>
+                         <actor> Rinko Kikuchi</actor>
+                </actors>
+                <rating>
+7,0
+</rating>
+                <plot>
+                As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.
+                </plot>
+                <image>img_id28
+</image>
+         </movie>
+         
+          <movie id="29">
+                <title>
+Pan's Labyrinth</title>
+                <genres>
+                         <genre>
+Drama
+</genre>
+                         <genre>
+Fantasy</genre>
+                </genres>
+                <directors>
+                        <director>Guillermo del Toro</director>
+                </directors>
+                <land>
+Spain</land>
+                <land>Mexico</land>
+                <land>USA  </land>
+                <year>
+20067</year>
+                <actors>
+                        <actor>
+Ivana Baquero</actor>
+                        <actor>
+ Ariadna Gil
+</actor>
+                         <actor>
+ Sergi López
+</actor>
+                </actors>
+                <rating>
+8,2</rating>
+                <plot>
+                In the falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.
+                </plot>
+                <image>
+img_id29
+</image>
+         </movie>
+         
+          <movie id="30">
+                <title>
+Quantum of Solace</title>
+                <genres>
+                         <genre>
+Action</genre>
+                         <genre>
+adventure</genre>
+                         <genre>
+Thriller</genre>
+                </genres>
+                <directors>
+                        <director>
+Marc Forster</director>
+                </directors>
+                <land>
+United Kingdom
+</land>
+                  <land>
+USA
+</land>
+                <year>
+2008</year>
+                <actors>
+                        <actor>
+Daniel Craig</actor>
+                        <actor>
+Olga Kurylenko</actor>
+                         <actor>
+Mathieu Amalric</actor>
+                </actors>
+                <rating>
+6,6</rating>
+                <plot>
+                 James Bond descends into mystery as he tries to stop a mysterious organization from eliminating a country's most valuable resource.
+                </plot>
+                <image>
+img
+_id30.jpg</image>
+         </movie>
+</movies>
+
+<!--
+15 Mariia a-i film ids: 1-15, image names: img_id1.jpg 
+15 Dan j - q film ids: 16-30
+15 Christiane r - z film ids 31 - 45
+-->
+
