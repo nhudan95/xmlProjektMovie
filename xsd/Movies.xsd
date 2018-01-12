@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+              <xs:element name="movies">
+                      <xs:complexType>
+                              <xs:sequence>
+                                      <xs:element name="movie" minOccurs="1" maxOccurs="unbounded"/>     
+                              </xs:sequence>                                                                                                                                                                                                                                                                                                                                               
+                      </xs:complexType>   
+              </xs:element>
+              
+              <xs:element name="movie">
+                      <xs:complexType>
+                              <xs:sequence>
+                                      <xs:element name="title" minOccurs="1" maxOccurs="1"/>
+                                      <xs:element name="genres" minOccurs="1" maxOccurs="unbounded"/>
+                                      <xs:element name="directors" minOccurs="1" maxOccurs="unbounded"/>
+                                      <xs:element name="land" minOccurs="1" maxOccurs="unbounded"/>
+                                      <xs:element name="year" minOccurs="1" maxOccurs="unbounded"/>
+                                      <xs:element name="actors" minOccurs="1" maxOccurs="unbounded"/>
+                                      <xs:element name="rating" minOccurs="1" maxOccurs="1"/>
+                                      <xs:element name="plot" minOccurs="1"/>
+                                      <xs:element name="image" minOccurs="1" maxOccurs="1"/>
+                              </xs:sequence>
+                      </xs:complexType>
+              </xs:element>
+              
+              <xs:element name="genres">
+                      <xs:complexType>
+                              <xs:sequence>
+                                      <xs:element name="genre" type="genreTyp" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                              </xs:sequence>
+                      </xs:complexType>
+              </xs:element>
+              
+              <xs:simpleType name="genreTyp">
+                      <xs:restriction base="xs:string">
+                      <xs:pattern value="Action|Horro|Sci-Fi|Adventure|Comedy|Crime|Drama|Thriller|Western|Romance|War|Mystery|Music|Family|Animation|Documentary|Biography"/>
+                      </xs:restriction>
+              </xs:simpleType>
+
+</xs:schema>
