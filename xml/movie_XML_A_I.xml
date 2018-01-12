@@ -112,217 +112,220 @@ A former neo-nazi skinhead tries to prevent his younger brother from going down 
 	</movie>
 	                          
 	<movie id="4">
-	<title>Batman Begins
+		<title>Batman Begins
 </title>
-	<genres>
-	<genre>Action
+		<genres>
+			<genre>Action
 </genre>
-	<genre>Adventure
+			<genre>Adventure
 </genre>
-	<genre>Thriller
+			<genre>Thriller
 </genre>
-	</genres>
-	<directors>
-	<director>
+		</genres>
+		<directors>
+			<director>
  Christopher Nolan </director>
-	</directors>
-	<countries>
-	<country>
+		</directors>
+		<countries>
+			<country>
 USA</country>
-	<country>
+			<country>
 UK</country>
-	</countries>
-	<year>2005
+		</countries>
+		<year>2005
 </year>
-	<actors>
-	<actor>
+		<actors>
+			<actor>
 Christian Bale</actor>
-	<actor>Michael Caine
+			<actor>Michael Caine
 </actor>
-	<actor>
+			<actor>
 Ken Watanabe</actor>
-	</actors>
-	<rating>
+		</actors>
+		<rating>
 8,3</rating>
-	<plot>After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it. </plot>
-	<image>img_id4.jpg
+		<plot>After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it. </plot>
+		<image>img_id4.jpg
 </image>
 	</movie>
          
-<movie id="5">
-<title>Django Unchained
+	<movie id="5">
+		<title>Django Unchained
 </title>
-<genres>
-<genre>
+		<genres>
+			<genre>
 Drama</genre>
-<genre>
+			<genre>
 Western</genre>
-</genres>
-<directors>
-<director>
+		</genres>
+		<directors>
+			<director>
 Quentin Tarantino </director>
-</directors>
-<countries>
-<country>
+		</directors>
+		<countries>
+			<country>
 USA</country>
-</countries>
-<year>2015
+		</countries>
+		<year>2015
 </year>
-<actors>
-<actor> Jamie Foxx
+		<actors>
+			<actor> Jamie Foxx
 </actor>
-<actor>Christoph Waltz
+			<actor>Christoph Waltz
 </actor>
-
+			
 <actor>Leonardo DiCaprio
 </actor>
-</actors>
-<rating>8,4
+		</actors>
+		<rating>8,4
 </rating>
-<plot>
+		<plot>
 A German dentist buys the freedom of a slave and trains him with the intent to make him his deputy bounty hunter. Instead, he is led to the site of the slave's wife who belongs to a ruthless plantation owner.</plot>
-<image>img_id5.jpg
+		<image>img_id5.jpg
 </image>
-</movie>
+	</movie>
 
-<movie id="6">
-<title>Drive
+	<movie id="6">
+		<title>Drive
 </title>
-<genres>
-<genre>Crime
+		<genres>
+			<genre>Crime
 </genre>
-<genre>
+			<genre>
 Drama</genre>
-</genres>
-<directors>
-<director>
+		</genres>
+		<directors>
+			<director>
  Nicolas Winding Refn </director>
-
+		
 </directors>
-
+		
 <countries>
-<country>
+			<country>
 USA</country>
-</countries>
-<year>
+		</countries>
+		<year>
 2011</year>
-<actors>
-<actor> Ryan Gosling</actor>
-<actor> Carey Mulligan
+		<actors>
+			<actor> Ryan Gosling</actor>
+			<actor> Carey Mulligan
 </actor>
-<actor>Bryan Cranston</actor>
-</actors>
-<rating>
+			<actor>Bryan Cranston</actor>
+		</actors>
+		<rating>
 7,8</rating>
-<plot>
+		<plot>
 A mysterious man who has multiple jobs as a garage mechanic, a Hollywood stuntman and a getaway driver seems to be trying to escape his shady past as he falls for his neighbor - whose husband is in prison and who's looking after her child alone. Meanwhile, his garage mechanic boss is trying to set up a race team using gangcountry money, which implicates our driver as he is to be used as the race team's main driver. Our hero gets more than he bargained for when he meets the man who is married to the woman he loves.</plot>
-<image>img_id6.jpg
+		<image>img_id6.jpg
 </image>
-</movie>
+	</movie>
                   
-<movie id="7">
-<title>Eternal Sunshine of the Spotless Mind
+	<movie id="7">
+	<title>Eternal Sunshine of the Spotless Mind
 </title>
-<genres>
-<genre>Drama
+	<genres>
+		<genre>Drama
 </genre>
-<genre>
+		<genre>
 Romance</genre>
-<genre>
+		<genre>
 Sci-Fi</genre>
-</genres>
-<directors>
-<director>
+	</genres>
+	<directors>
+		<director>
 Michel Gondry </director>
-</directors>
-<country>
+	</directors>
+	<countries>
+		<country>
 USA</country>
-<year>2004
+	</countries>
+	<year>2004
 </year>
-<actors>
-<actor>
+	<actors>
+		<actor>
 Jim Carrey</actor>
-<actor>
+		<actor>
 Kate Winslet</actor>
-<actor>
+		<actor>
 Tom Wilkinson</actor>
-</actors>
-<rating>8,3
+	</actors>
+	<rating>8,3
 </rating>
-<plot>
+	<plot>
 A man, Joel Barish, heartbroken that his girlfriend Clementine underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realizes that he still loves her, and may be too late to correct his mistake.</plot>
-<image>img_id7.jpg
+	<image>img_id7.jpg
 </image>
-</movie>
+	</movie>
   
-<movie id="8">
-<title>Fight Club</title>
-<genres>
-<genre>Drama
+	<movie id="8">
+		<title>Fight Club</title>
+		<genres>
+			<genre>Drama
 </genre>
-</genres>
-<directors>
-<director>
+		</genres>
+		<directors>
+			<director>
 David Fincher </director>
-</directors>
-<countries>
-<country>
+		</directors>
+		<countries>
+			<country>
 USA</country>
-<country>G
+			<country>G
 ermany</country>
-</countries>
-<year>1999
+		</countries>
+		<year>1999
 </year>
-<actors>
-<actor>
+		<actors>
+			<actor>
 Brad Pitt</actor>
-<actor>Edward Norton
+			<actor>Edward Norton
 </actor>
-<actor>Meat Loaf</actor>
-</actors>
-<rating>
+			<actor>Meat Loaf</actor>
+		</actors>
+		<rating>
 8,8</rating>
-<plot>
+		<plot>
 A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is.</plot>
-<image>
+		<image>
 img_id7.jpg</image>
-</movie>
+	</movie>
     
-<movie id="9">
-                <title>Fear and Loathing in Las Vegas
+	<movie id="9">
+                	<title>Fear and Loathing in Las Vegas
 </title>
-                <genres>
-                        <genre> Adventure
+		<genres>
+			<genre> Adventure
 </genre>
-                        <genre>
+			<genre>
 Comedy</genre>
-                        <genre>Drama
+			<genre>Drama
 </genre>
-                </genres>
-                <directors>
-                        <director>
- Terry Gilliam </director>
-                </directors>
-                <country>
+		</genres>
+		<directors>                   
+			<director>
+Terry Gilliam </director>
+		</directors>
+		<countries>
+		<country>
 USA</country>
-               
-                <year>1998
+		</countries>
+		<year>1998
 </year>
-                <actors>
-                        <actor> Johnny Depp
-</actor>
-                        <actor>
+		<actors>
+<actor> Johnny Depp
+	</actor>
+	<actor>
 Benicio Del Toro</actor>
-                        <actor>
+	<actor>
 Tobey Maguire</actor>
-                </actors>
-                <rating>7,7
+	</actors>
+	<rating>7,7
 </rating>
-                <plot>
+	<plot>
 The big-screen version of Hunter S. Thompson's seminal psychedelic classic about his road trip across Western America as he and his large Samoan lawyer searched desperately for the "American dream"... they were helped in large part by the huge amount of drugs and alcohol kept in their convertible, The Red Shark.</plot>
-                <image>
+	<image>
 img_id9.jpg</image>
-        </movie>
+	</movie>
  
         <movie id="10">
                 <title>Gladiator
