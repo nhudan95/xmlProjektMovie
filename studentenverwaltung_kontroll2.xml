@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Hochschule titel="Studierendenverwaltung"-->
+
+	<Studenten xsi:noNamespaceSchemaLocation="studentenverwaltung_kontroll2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+		<Student id="S1">
+			<studentangaben>
+				<Name>Ba</Name>
+				<Vorname>Clarisse</Vorname>
+				<Matrikelnummer>405432</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>baclarisse@.hs.com</E-Mail>
+				</email>
+				<Strasse>Carl-strasse</Strasse>
+				<Hausnummer>16</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26783</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+ 
+			<studium>
+				<Studiengang art="International">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Umwelttechnik B.Sc</offiziellenBezeichnung>
+					<fakultät id="2" bezeichnung="Fakultät 2 - Architektur, Bau und Umwelt"></fakultät>
+				</Studiengang>
+				<ArtDesStudiums>Teilzeit</ArtDesStudiums>
+				<Studienbeginn>2014</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2018</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Laufend</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Johaburg</HochschulName>
+					<Land>Darland</Land>
+					<Ort>Rang</Ort>
+					<Link>http://hochschule.Johaburg</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+	
+		<Student id="S2">
+			<studentangaben>
+				<Name> Ueber </Name>
+				<Vorname>Robert</Vorname>
+				<Matrikelnummer>405431</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>ueberrob@.fa.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>ueberrob@.res.com</E-Mail>
+				</email>
+				<Strasse>Carstrasse</Strasse>
+				<Hausnummer>6</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26763</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="International">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Politikmanagement B.A.</offiziellenBezeichnung>
+					<fakultät id="3" bezeichnung="Fakultät 3 - Gesellschaftswissenschaften"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2013</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2017</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Rosensch</HochschulName>
+					<Land>Dänemark</Land>
+					<Ort>Robet</Ort>
+					<Link>http://hochschule.Rosensch</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S3">
+			
+			<studentangaben>
+				<Name> karl </Name>
+				<Vorname>heinz</Vorname>
+				<Matrikelnummer>305332</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>baclarisse@.hs.com</E-Mail>
+				</email>
+				<Strasse>Rotterburg</Strasse>
+				<Hausnummer>30</Hausnummer>
+				<Stadt>Koln</Stadt>
+				<Postleitzahl>30783</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Dual">
+					<Charakterisierung>Master</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Frauenstudiengang Informatik - dual B.Sc.</offiziellenBezeichnung>
+					<fakultät id="4" bezeichnung="Fakultät 4 - Elektrotechnik und Informatik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2016</Studienbeginn>
+				<Studienende Beendet="Abgebrochen">
+					<Datum>2018</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Burgda</HochschulName>
+					<Land>Maltland</Land>
+					<Ort>Malto</Ort>
+					<Link>http://hochschule.Burgda</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S4">
+			<studentangaben>
+				<Name> Orelienne</Name>
+				<Vorname>Peters</Vorname>
+				<Matrikelnummer>30533</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>baclarisse@.hs.com</E-Mail>
+				</email>
+				<Strasse>burgplatz</Strasse>
+				<Hausnummer>3</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>30683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Normal">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Angewandte Wirtschaftssprachen und Internationale Unternehmensführung B.A</offiziellenBezeichnung>
+					<fakultät id="1" bezeichnung="Fakultät 1 - Wirtschaftswissenschaften"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2016</Studienbeginn>
+				<Studienende Beendet="Noch nicht beendet">
+					<Datum>2020</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Laufend</Status>
+				<AngabenZurHochschule>
+					<HochschulName>University of Auckland</HochschulName>
+					<Land>Australien</Land>
+					<Ort>Auckland</Ort>
+					<Link>https://www.auckland.ac.nz/en.html</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S5">
+			<studentangaben>
+				<Name> Remond-Rey </Name>
+				<Vorname>Jonathan</Vorname>
+				<Matrikelnummer>415432</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>Remond-Rey@.hs.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>Remond@.hs.com</E-Mail>
+				</email>
+				<Strasse>Randstrasse</Strasse>
+				<Hausnummer>18</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="International">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Bionik B.Sc..</offiziellenBezeichnung>
+					<fakultät id="5" bezeichnung="Fakultät 5 - Natur und Technik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2008</Studienbeginn>
+				<Studienende Beendet="Endgültigen Nichtbestehens">
+					<Datum>2011</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Hochschule abc</HochschulName>
+					<Land>Irland</Land>
+					<Ort>Brawaland</Ort>
+					<Link>http://hochschule.Hochschule</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S6">
+			<studentangaben>
+				<Name>Holmes</Name>
+				<Vorname>Sherlock</Vorname>
+				<Matrikelnummer>405438</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>baclarisse@.hs.com</E-Mail>
+				</email>
+				<Strasse>Carl-strasse</Strasse>
+				<Hausnummer>16</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26783</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Normal">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Umwelttechnik B.Sc</offiziellenBezeichnung>
+					<fakultät id="2" bezeichnung="Fakultät 2 - Architektur, Bau und Umwelt"></fakultät>
+				</Studiengang>
+				<ArtDesStudiums>Teilzeit</ArtDesStudiums>
+				<Studienbeginn>2014</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2018</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Laufend</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Johaburg</HochschulName>
+					<Land>Darland</Land>
+					<Ort>Rang</Ort>
+					<Link>http://hochschule.Johaburg</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+
+		<Student id="S7">
+			<studentangaben>
+				<Name> Holland </Name>
+				<Vorname>Kris</Vorname>
+				<Matrikelnummer>405471</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>ueberrob@.fa.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>ueberrob@.res.com</E-Mail>
+				</email>
+				<Strasse>Carstrasse</Strasse>
+				<Hausnummer>6</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26763</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+
+			<studium>
+				<Studiengang art="Normal">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Soziale Arbeit B.A..</offiziellenBezeichnung>
+					<fakultät id="3" bezeichnung="Fakultät 3 - Gesellschaftswissenschaften"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2013</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2017</Datum>
+				</Studienende>
+			</studium>
+			
+			
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Rosensch</HochschulName>
+					<Land>Dänemark</Land>
+					<Ort>Robet</Ort>
+					<Link>http://hochschule.Rosensch</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S8">
+			
+			<studentangaben>
+				<Name> Dickens</Name>
+				<Vorname>Charles</Vorname>
+				<Matrikelnummer>305332</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>baclarisse@.hs.com</E-Mail>
+				</email>
+				<Strasse>Rotterburg</Strasse>
+				<Hausnummer>30</Hausnummer>
+				<Stadt>Koln</Stadt>
+				<Postleitzahl>30783</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+
+			<studium>
+				<Studiengang art="Normal">
+					<Charakterisierung>Master</Charakterisierung>
+					<offiziellenBezeichnung>Technische Informatik B.Sc.</offiziellenBezeichnung>
+					<fakultät id="4" bezeichnung="Fakultät 4 - Elektrotechnik und Informatik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2016</Studienbeginn>
+				<Studienende Beendet="Abgebrochen">
+					<Datum>2018</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Burgda</HochschulName>
+					<Land>Maltland</Land>
+					<Ort>Malto</Ort>
+					<Link>http://hochschule.Burgda</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S9">
+			<studentangaben>
+				<Name> Parker</Name>
+				<Vorname>Peter</Vorname>
+				<Matrikelnummer>30534</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>baclarisse@.hs.com</E-Mail>
+				</email>
+				<Strasse>burgplatz</Strasse>
+				<Hausnummer>3</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>30683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+
+			<studium>
+				<Studiengang art="Normal">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Betriebswirtschaft (BW)</offiziellenBezeichnung>
+					<fakultät id="1" bezeichnung="Fakultät 1 - Wirtschaftswissenschaften"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2016</Studienbeginn>
+				<Studienende Beendet="Noch nicht beendet">
+					<Datum>2020</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Laufend</Status>
+				<AngabenZurHochschule>
+					<HochschulName>University of Auckland</HochschulName>
+					<Land>Australien</Land>
+					<Ort>Auckland</Ort>
+					<Link>https://www.auckland.ac.nz/en.html</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S10">
+			<studentangaben>
+				<Name>Walkes </Name>
+				<Vorname>Otto</Vorname>
+				<Matrikelnummer>415431</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>Remond-Rey@.hs.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>Remond@.hs.com</E-Mail>
+				</email>
+				<Strasse>Randstrasse</Strasse>
+				<Hausnummer>18</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Dual">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Dualer Studiengang Mechanical Production and Engineering B.Eng..</offiziellenBezeichnung>
+					<fakultät id="5" bezeichnung="Fakultät 5 - Natur und Technik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2008</Studienbeginn>
+				<Studienende Beendet="Endgültigen Nichtbestehens">
+					<Datum>2011</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Hochschule abc</HochschulName>
+					<Land>Irland</Land>
+					<Ort>Brawaland</Ort>
+					<Link>http://hochschule.Hochschule</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S11">
+			<studentangaben>
+				<Name>Olivie </Name>
+				<Vorname>Hummi</Vorname>
+				<Matrikelnummer>415231</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>olivie@.hs.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>olivie_hum@.hs.com</E-Mail>
+				</email>
+				<Strasse>Randstrasse</Strasse>
+				<Hausnummer>18</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Dual">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Dualer Studiengang Mechanical Production and Engineering B.Eng..</offiziellenBezeichnung>
+					<fakultät id="5" bezeichnung="Fakultät 5 - Natur und Technik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2008</Studienbeginn>
+				<Studienende Beendet="Noch nicht beendet">
+					<Datum>2011</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Hochschule abc</HochschulName>
+					<Land>Irland</Land>
+					<Ort>Brawaland</Ort>
+					<Link>http://hochschule.Hochschule</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		<Student id="S12">
+			<studentangaben>
+				<Name>Neuer</Name>
+				<Vorname>Jesse</Vorname>
+				<Matrikelnummer>405482</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>neuer@.hs.com</E-Mail>
+				</email>
+				<Strasse>Carl-strasse</Strasse>
+				<Hausnummer>16</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26783</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+ 
+			<studium>
+				<Studiengang art="International">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Umwelttechnik B.Sc</offiziellenBezeichnung>
+					<fakultät id="2" bezeichnung="Fakultät 2 - Architektur, Bau und Umwelt"></fakultät>
+				</Studiengang>
+				<ArtDesStudiums>Teilzeit</ArtDesStudiums>
+				<Studienbeginn>2014</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2018</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Laufend</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Johaburg</HochschulName>
+					<Land>Darland</Land>
+					<Ort>Rang</Ort>
+					<Link>http://hochschule.Johaburg</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		<Student id="S13">
+			<studentangaben>
+				<Name>Mafay </Name>
+				<Vorname>Peter</Vorname>
+				<Matrikelnummer>415131</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>olivie@.hs.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>olivie_hum@.hs.com</E-Mail>
+				</email>
+				<Strasse>Randstrasse</Strasse>
+				<Hausnummer>18</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Dual">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Dualer Studiengang Mechanical Production and Engineering B.Eng..</offiziellenBezeichnung>
+					<fakultät id="5" bezeichnung="Fakultät 5 - Natur und Technik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2008</Studienbeginn>
+				<Studienende Beendet="Noch nicht beendet">
+					<Datum>2011</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Hochschule abc</HochschulName>
+					<Land>Irland</Land>
+					<Ort>Brawaland</Ort>
+					<Link>http://hochschule.Hochschule</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+
+	<Student id="S14">
+			<studentangaben>
+				<Name>Oedinger </Name>
+				<Vorname>Peter</Vorname>
+				<Matrikelnummer>415031</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>olivie@.hs.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>olivie_hum@.hs.com</E-Mail>
+				</email>
+				<Strasse>Randstrasse</Strasse>
+				<Hausnummer>18</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Dual">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Dualer Studiengang Mechanical Production and Engineering B.Eng..</offiziellenBezeichnung>
+					<fakultät id="5" bezeichnung="Fakultät 5 - Natur und Technik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2008</Studienbeginn>
+				<Studienende Beendet="Noch nicht beendet">
+					<Datum>2011</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Hochschule abc</HochschulName>
+					<Land>Irland</Land>
+					<Ort>Brawaland</Ort>
+					<Link>http://hochschule.Hochschule</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		<Student id="S15">
+			<studentangaben>
+				<Name>Stich</Name>
+				<Vorname>Lilo</Vorname>
+				<Matrikelnummer>405222</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>stitchl@.hs.com</E-Mail>
+				</email>
+				<Strasse>Carl-strasse</Strasse>
+				<Hausnummer>16</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26783</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+ 
+			<studium>
+				<Studiengang art="International">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Umwelttechnik B.Sc</offiziellenBezeichnung>
+					<fakultät id="2" bezeichnung="Fakultät 2 - Architektur, Bau und Umwelt"></fakultät>
+				</Studiengang>
+				<ArtDesStudiums>Teilzeit</ArtDesStudiums>
+				<Studienbeginn>2014</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2018</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Laufend</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Johaburg</HochschulName>
+					<Land>Darland</Land>
+					<Ort>Rang</Ort>
+					<Link>http://hochschule.Johaburg</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S16">
+			<studentangaben>
+				<Name>Olivi</Name>
+				<Vorname>Humi</Vorname>
+				<Matrikelnummer>416231</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>olivi@.hs.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>olivi_hum@.hs.com</E-Mail>
+				</email>
+				<Strasse>Radstrasse</Strasse>
+				<Hausnummer>18</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26683</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="Dual">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Dualer Studiengang chemical Production and Engineering B.Eng..</offiziellenBezeichnung>
+					<fakultät id="5" bezeichnung="Fakultät 5 - Natur und Technik"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2008</Studienbeginn>
+				<Studienende Beendet="Noch nicht beendet">
+					<Datum>2011</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Hochschule bc</HochschulName>
+					<Land>Irland</Land>
+					<Ort>Brawaland</Ort>
+					<Link>http://hochschule.Hochschule</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		<Student id="S17">
+			<studentangaben>
+				<Name>Bali</Name>
+				<Vorname>risse</Vorname>
+				<Matrikelnummer>405332</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>brisse@.hs.com</E-Mail>
+				</email>
+				<Strasse>Carlstrasse</Strasse>
+				<Hausnummer>16</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26783</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+ 
+			<studium>
+				<Studiengang art="International">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Umwelttechnik B.Sc</offiziellenBezeichnung>
+					<fakultät id="2" bezeichnung="Fakultät 2 - Architektur, Bau und Umwelt"></fakultät>
+				</Studiengang>
+				<ArtDesStudiums>Teilzeit</ArtDesStudiums>
+				<Studienbeginn>2014</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2018</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Laufend</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Johaburg</HochschulName>
+					<Land>Darland</Land>
+					<Ort>Rang</Ort>
+					<Link>http://hochschule.Johaburg</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+		
+		
+<Student id="S18">
+			<studentangaben>
+				<Name> Uber </Name>
+				<Vorname>Roert</Vorname>
+				<Matrikelnummer>402431</Matrikelnummer>
+				<email primär="true">
+					<E-Mail>berrob@.fa.com</E-Mail>
+				</email>
+				<email primär="false">
+					<E-Mail>ueberrob@.res.com</E-Mail>
+				</email>
+				<Strasse>Carstrasse</Strasse>
+				<Hausnummer>6</Hausnummer>
+				<Stadt>Bremen</Stadt>
+				<Postleitzahl>26763</Postleitzahl>
+				<Land>Deutschland</Land>
+			</studentangaben>
+			<studium>
+				<Studiengang art="International">
+					<Charakterisierung>Bachelor</Charakterisierung>
+					<offiziellenBezeichnung>Internationaler Studiengang Politikmanagement B.A.</offiziellenBezeichnung>
+					<fakultät id="3" bezeichnung="Fakultät 3 - Gesellschaftswissenschaften"></fakultät>
+				</Studiengang>
+	
+				<ArtDesStudiums>Vollzeit</ArtDesStudiums>
+				<Studienbeginn>2013</Studienbeginn>
+				<Studienende Beendet="Erfolgreich">
+					<Datum>2017</Datum>
+				</Studienende>
+			</studium>
+			<Ausland>
+				<Status>Beendet</Status>
+				<AngabenZurHochschule>
+					<HochschulName>Rosensch</HochschulName>
+					<Land>Dänemark</Land>
+					<Ort>Robet</Ort>
+					<Link>http://hochschule.Rosensch</Link>
+				</AngabenZurHochschule>
+			</Ausland>
+		</Student>
+	</Studenten>
+<!--/Hochschule-->
+
+
