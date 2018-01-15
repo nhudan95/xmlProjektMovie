@@ -436,7 +436,7 @@
 			<Ausland>
 				<Status>Beendet</Status>
 				<AngabenZurHochschule>
-					<HochschulName>Hochschule abc</HochschulName>
+					<HochschulName>Hochschule Bravo</HochschulName>
 					<Land>Irland</Land>
 					<Ort>Brawaland</Ort>
 					<Link>http://hochschule.Hochschule</Link>
@@ -513,7 +513,7 @@
 			<Ausland>
 				<Status>Beendet</Status>
 				<AngabenZurHochschule>
-					<HochschulName>Hochschule abc</HochschulName>
+					<HochschulName>Hochschule ab</HochschulName>
 					<Land>Irland</Land>
 					<Ort>Brawaland</Ort>
 					<Link>http://hochschule.Hochschule</Link>
@@ -670,7 +670,7 @@
 			<Ausland>
 				<Status>Laufend</Status>
 				<AngabenZurHochschule>
-					<HochschulName>Johaburg</HochschulName>
+					<HochschulName>Haburg</HochschulName>
 					<Land>Darland</Land>
 					<Ort>Rang</Ort>
 					<Link>http://hochschule.Johaburg</Link>
@@ -712,7 +712,7 @@
 			<Ausland>
 				<Status>Beendet</Status>
 				<AngabenZurHochschule>
-					<HochschulName>Rosensch</HochschulName>
+					<HochschulName>Rosen</HochschulName>
 					<Land>Dänemark</Land>
 					<Ort>Robet</Ort>
 					<Link>http://hochschule.Rosensch</Link>
