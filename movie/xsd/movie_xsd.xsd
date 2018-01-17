@@ -25,7 +25,7 @@
 	<!--title-->
 	<xs:simpleType name="titleType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([A-Z][a-zA-ZaäöüÄÖÜß -.?:]*[ |.|-|']?)*"/>
+			<xs:pattern value="([A-Za-z]*[ |-]?:*)+"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!--genre-->
