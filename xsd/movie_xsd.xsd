@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="movies" type="moviesType"/>
+	<xs:complexType name="moviesType">
+		<xs:sequence>
+			<xs:element name="movie" type="movieType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		
+	</xs:complexType>
+	<xs:complexType name="movieType">
+		<xs:sequence>
+			<xs:element name="title" type="titleType" maxOccurs="1"/>
+			<xs:element name="genres" type="genresType" maxOccurs="unbounded"/>
+			<xs:element name="directors" type="directorsType" maxOccurs="unbounded"/>
+			<xs:element name="countries" type="countriesType" maxOccurs="unbounded"/>
+			<xs:element name="year" type="yearType" minOccurs="1"/>
+			<xs:element name="actors" type="actorsType" maxOccurs="unbounded"/>
+			<xs:element name="rating" type="ratingType"/>
+			<xs:element name="plot" type="xs:string"/>
+			<xs:element name="image" type="imageType"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<!--title-->
+	<xs:simpleType name="titleType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([A-Z][a-zA-ZaäöüÄÖÜß -.?:]*[ |.|-|']?)*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--genre-->
+	<xs:complexType name="genresType">
+		<xs:sequence>
+			<xs:element name="genre" type="genreTyp" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="genreTyp">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Action"/>
+			<xs:enumeration value="Adventure"/>
+			<xs:enumeration value="Animation"/>
+			<xs:enumeration value="Biography"/>
+			<xs:enumeration value="Comedy"/>
+			<xs:enumeration value="Crime"/>
+			<xs:enumeration value="Drama"/>
+			<xs:enumeration value="Documentary"/>
+			<xs:enumeration value="Family"/>
+			<xs:enumeration value="Horror"/>
+			<xs:enumeration value="Music"/>
+			<xs:enumeration value="Mystery"/>
+			<xs:enumeration value="Romance"/>
+			<xs:enumeration value="Sci-Fi"/>
+			<xs:enumeration value="Thriller"/>
+			<xs:enumeration value="War"/>
+			<xs:enumeration value="Western"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--director-->
+	<xs:complexType name="directorsType">
+		<xs:sequence>
+			<xs:element name="director" type="nameTyp" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!--NameType-->
+	<xs:simpleType name="nameTyp">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([A-Za-z]*[ |-]?)+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--country-->
+	<xs:complexType name="countriesType">
+		<xs:sequence>
+			<xs:element name="country" type="nameTyp" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!--actor-->
+	<xs:complexType name="actorsType">
+		<xs:sequence>
+			<xs:element name="actor" type="nameTyp" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!--year-->
+	<xs:simpleType name="yearType">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1800"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--rating-->
+	<xs:simpleType name="ratingType">
+		<xs:restriction base="xs:decimal">
+      			<xs:minInclusive value="1.0"/>
+     			 <xs:maxInclusive value="10.0"/>
+      			<xs:pattern value="(1|[0-9]*)\.\d"/>
+   		 </xs:restriction>
+	</xs:simpleType>
+	<!--image-->
+	<xs:complexType name="imageType">
+		<xs:sequence>
+			<xs:element name="ImageLocation" type="xs:anyURI"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
