@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="movie_css.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>MOVIE</title>
+</head>
+
+<body>
+    <!--NAVIGATION-->
+    <div class="navi_backcolor"></div>
+    <div class="navigation">
+        <div class="logo">
+            <a href="welcome">
+                            <img src="movie/img/logo.png" alt="logo"/>
+                        </a>
+        </div>
+        <div class="search">
+            <form>
+                <input id="search_holder" type="text" name="search" placeholder="Search for Movies, Actors, Directors and more..." />
+            </form>
+            <div class="select_all">
+                <form action="index.html" method="get">
+                    <select name="search_all" id="search_all">
+                                    <option value="1">All</option>
+                                    <option value="2">Actors</option>
+                                    <option value="5">Country</option>
+                                    <option value="3">Directors</option>
+                                    <option value="4">Title</option>
+                                </select>
+                    <input id="submit_button" src="movie/img/searchicon.png" name="submit" type="image" />
+                </form>
+            </div>
+            <div class="links">
+                <div class="topfive">
+                    <a href="movie/topFive.html" target="_blank">TOP 5</a>
+                </div>
+                <div class="allmovies">
+                    <a href="movie/allMovies.html" target="_blank">ALL MOVIES</a>
+                </div>
+                <div class="genre">
+                    <a href="movie/genre.html" target="_blank">GENRE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SLIDESHOW UPCOMING MOVIES-->
+    <div class="titel_upcoming">
+        <h1>UPCOMING MOVIES </h1>
+    </div>
+    <div class="upcoming">
+        <img class="up_img" src="img/img_id46.jpg " />
+        <img class="up_img" src="img/img_id47.jpg " />
+        <img class="up_img " src="img/img_id48.jpg " />
+    </div>
+
+</body>
+
+</html>

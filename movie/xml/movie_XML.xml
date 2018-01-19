@@ -523,7 +523,7 @@
 			<actor>Bryce Dallas Howard</actor>
 			<actor>Jeffrey Wright</actor>
 		</actors>
-		<rating>5,6</rating>
+		<rating>5.6</rating>
 		<plot>Apartment building superintendent Clevecountry Heep rescues what he thinks is a young woman from the pool he maintains. When he discovers that she is actually a character from a bedtime story who is trying to make the journey back to her home, he works with his tenants to protect his new friend from the creatures that are determined to keep her in our world.</plot>
 		<image>
 			<ImageLocation>img/img_id21.jpg</ImageLocation>
@@ -542,8 +542,7 @@
 		<countries>
 			<country>USA</country>
 		</countries>
-		<year>2005
-	</year>
+		<year>2005</year>
 		<actors>
 			<actor>Emma Thompson</actor>
 			<actor>Colin Firth</actor>
@@ -651,7 +650,7 @@
 			<actor>Morgan Freeman</actor>
 			<actor>Andrea Riseborough</actor>
 		</actors>
-		<rating>7,0</rating>
+		<rating>7.0</rating>
 		<plot>A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.</plot>
 		<image>
 			<ImageLocation>img/img_id26.jpg</ImageLocation>
@@ -768,7 +767,7 @@
 			<director>Quentin Tarantino</director>
 		</directors>
 		<countries>
-			<country>United States</country>
+			<country>USA</country>
 		</countries>
 		<year>1992</year>
 		<actors>
@@ -793,7 +792,7 @@
 			<director>Steven Spielberg</director>
 		</directors>
 		<countries>
-			<country>United States</country>
+			<country>USA</country>
 		</countries>
 		<year>1998</year>
 		<actors>
@@ -920,7 +919,7 @@
 		<rating>8.6</rating>
 		<plot>A prep school student needing money agrees to "babysit" a blind man, but the job is not at all what he anticipated.</plot>
 		<image>
-			<ImageLocation>img_id36.jpg</ImageLocation>
+			<ImageLocation>img/img_id36.jpg</ImageLocation>
 		</image>
 	</movie>
 	<movie id="M37">
@@ -1144,7 +1143,7 @@
 			<actor>Gillian Anderson</actor>
 			<actor>Kerry Washington</actor>
 		</actors>
-		<rating>7.7</rating>
+		<rating>0.0</rating>
 		<plot>
 			In 1970, Nicholas Garrigan graduates from medical school at the University of
 			Edinburgh.[4] With dull prospects at home, he decides to seek adventure abroad by working at a Ugandan missionary clinic run by Dr. David Merrit (Adam Kotz) and
@@ -1166,7 +1165,7 @@
 		</directors>
 		<countries>
 			<country>United Kingdom</country>
-			<country>United States</country>
+			<country>USA</country>
 		</countries>
 		<year>2006</year>
 		<actors>
@@ -1175,10 +1174,88 @@
 			<actor>Scarlett Johansson</actor>
 			<actor>Michael Caine</actor>
 		</actors>
-		<rating>8.5</rating>
+		<rating>0.0</rating>
 		<plot>After a tragic accident two stage magicians engage in a battle to create the ultimate illusion whilst sacrificing everything they have to outwit the other.</plot>
 		<image>
 			<ImageLocation>img/img_id45.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M46">
+		<title>Hostiles</title>
+		<genres>
+			<genre>Adventure</genre>
+			<genre>Drama</genre>
+			<genre>Western</genre>
+		</genres>
+		<directors>
+			<director>Scott Cooper</director>
+		</directors>
+		<countries>
+			<country>USA</country>
+		</countries>
+		<year>2018</year>
+		<actors>
+			<actor>Scott Shepherd</actor>
+			<actor>Rosamund Pike</actor>
+			<actor>Ava Cooper </actor>
+		</actors>
+		<rating>0.0</rating>
+		<plot>In 1892, a legendary Army captain reluctantly agrees to escort a Cheyenne chief and his family through dangerous territory.</plot>
+		<image>
+			<ImageLocation>img/img_id46.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M47">
+		<title>Peter Rabbit</title>
+		<genres>
+			<genre>Animation</genre>
+			<genre>Adventure</genre>
+			<genre>Comedy</genre>
+		</genres>
+		<directors>
+			<director>Will Gluck</director>
+		</directors>
+		<countries>
+			<country>United Kingdom</country>
+			<country>USA</country>
+			<country>Australia</country>
+		</countries>
+		<year>2018</year>
+		<actors>
+			<actor>Daisy Ridley</actor>
+			<actor>Margot Robbie</actor>
+			<actor>Elizabeth Debicki </actor>
+		</actors>
+		<rating>0.0</rating>
+		<plot>Feature adaptation of Beatrix Potter's classic tale of a rebellious rabbit trying to sneak into a farmer's vegetable garden.</plot>
+		<image>
+			<ImageLocation>img/img_id47.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M48">
+		<title>Maze Runner: The Death Cure</title>
+		<genres>
+			<genre>Action</genre>
+			<genre>Sci-Fi</genre>
+			<genre>Thriller</genre>
+		</genres>
+		<directors>
+			<director>Wes Ball</director>
+		</directors>
+		<countries>
+			<country>United Kingdom</country>
+			<country>USA</country>
+		</countries>
+		<year>2006</year>
+		<actors>
+			<actor>Rosa Salazar</actor>
+			<actor>Thomas Brodie-Sangster</actor>
+			<actor>Dylan O'Brien </actor>
+		</actors>
+		<rating>0.0</rating>
+		<plot>Young hero Thomas embarks on a mission to find a cure for a deadly disease known as the "Flare".</plot>
+		<image>
+			<ImageLocation>img/img_id48.jpg</ImageLocation>
 		</image>
 	</movie>
 </movies>

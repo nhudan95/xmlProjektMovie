@@ -6,7 +6,6 @@
 		<xs:sequence>
 			<xs:element name="movie" type="movieType" maxOccurs="unbounded"/>
 		</xs:sequence>
-		
 	</xs:complexType>
 	<xs:complexType name="movieType">
 		<xs:sequence>
@@ -16,7 +15,7 @@
 			<xs:element name="countries" type="countriesType" maxOccurs="unbounded"/>
 			<xs:element name="year" type="yearType" minOccurs="1"/>
 			<xs:element name="actors" type="actorsType" maxOccurs="unbounded"/>
-			<xs:element name="rating" type="ratingType"/>
+			<xs:element name="rating" type="ratingType" minOccurs="0"/>
 			<xs:element name="plot" type="xs:string"/>
 			<xs:element name="image" type="imageType"/>
 		</xs:sequence>
@@ -88,10 +87,10 @@
 	<!--rating-->
 	<xs:simpleType name="ratingType">
 		<xs:restriction base="xs:decimal">
-      			<xs:minInclusive value="1.0"/>
-     			 <xs:maxInclusive value="10.0"/>
-      			<xs:pattern value="(1|[0-9]*)\.\d"/>
-   		 </xs:restriction>
+			<xs:minInclusive value="0.0"/>
+			<xs:maxInclusive value="10.0"/>
+			<xs:pattern value="(0|[0-9]*)\.\d"/>
+		</xs:restriction>
 	</xs:simpleType>
 	<!--image-->
 	<xs:complexType name="imageType">
