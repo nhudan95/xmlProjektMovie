@@ -24,17 +24,15 @@
                         </a>
                     </div>
                     <div class="search">
-                        <form>
-                            <input id="search_holder" type="text" name="search" placeholder="Search for Movies, Actors, Directors and more..."/>
-                        </form>
                         <div class="select_all">
-                            <form action="index.html" method="get">
-                                <select name="search_all" id="search_all">
-                                    <option value="1">All</option>
-                                    <option value="2">Actors</option>
-                                    <option value="5">Country</option>
-                                    <option value="3">Directors</option>
-                                    <option value="4">Title</option>
+                            <form action="movie/movie_search_all.html" method="get">
+                                <input id="text" type="text" name="text" placeholder="Search for Movies, Actors, Directors and more..."/>
+                                <select name="search_type" id="search_type">
+                                    <option value="All">All</option>
+                                    <option value="Actor">Actors</option>
+                                    <option value="Country">Country</option>
+                                    <option value="Director">Directors</option>
+                                    <option value="Title">Title</option>
                                 </select>
                                 <input id="submit_button" src="movie/img/searchicon.png" name="submit" type="image"/>
                             </form>
@@ -47,7 +45,20 @@
                                 <a href="movie/allMovies.html" target="_blank">ALL MOVIES</a>
                             </div>
                             <div class="genre">
-                                <a href="movie/genre.html" target="_blank">GENRE</a>
+                                <!--<a href="movie/genre.html" target="_blank">GENRE</a>-->
+                                <form action="movie/movie_search_all.html" target="_blank" method="get">
+                                    <select name="search_genre" id="search_genre">
+                                        <option id="genre_name" value="" disabled="disabled" selected="selected">GENRE</option>
+                                        <xsl:variable name="genre" select="distinct-values(//movie/genres/genre)"/>
+                                        <xsl:for-each select="$genre">
+                                            <xsl:sort select="."/>
+                                            <option value="{.}">
+                                                <xsl:value-of select="."/>
+                                            </option>
+                                        </xsl:for-each>
+                                    </select>
+                                    <input id="submit_button" src="movie/img/searchicon.png" name="submit" type="image"/>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -78,7 +89,7 @@
                     <div class="about">
                         <h1>ABOUT</h1>
                         <div id="lorem">
-                            <p id="text">
+                            <p id="about_text">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                                                     </p>
                         </div>

@@ -23,7 +23,6 @@ body{
     height: 70px;
     margin-top: 5px;
     margin-left: 4%;
-    /*background-color: blue; */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     z-index: 10;
@@ -53,7 +52,7 @@ body{
     float: left;
 }
 
-input[type=text] {
+#text{
     width:40%;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -61,10 +60,13 @@ input[type=text] {
     font-size: 16px;
     background-color: white; 
     padding: 12px 20px 12px 40px;
-    float: left;
+    padding-left: 5px;
+    margin-left: 5px;
 }
 
-#search_all {
+
+
+#search_type {
     width:10%;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -90,7 +92,7 @@ input[type=text] {
     position:absolute;
     bottom: 0;
     width: 50%;
-    margin-left:80%;
+    margin-left:70%;
    
 }
 .topfive{
@@ -110,14 +112,24 @@ input[type=text] {
     float: left;
     font-family: 'Oswald', sans-serif;
 }
+/*GENRE*/
 
-.genre{
-    font-size: 25px;
+#search_genre{
+   width:20%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white; 
+    padding: 12px 20px 12px 40px;
     padding-left: 5px;
     margin-left: 5px;
     font-family: 'Oswald', sans-serif;
 }
-
+#genre_name{
+    font-family: 'Oswald', sans-serif;
+font-size: 25px;
+}
 a{
      text-decoration: none;
      color: black;
@@ -178,7 +190,7 @@ section {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
 }
-#text{
+#about_text{
     width: 80%;
     margin-left: 10%;
     position: absolute;

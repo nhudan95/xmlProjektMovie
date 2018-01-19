@@ -19,6 +19,20 @@
 				</map:transform>
 				<map:serialize type="html"/>
 			</map:match>
+			<map:match pattern="movie_search_all.html">
+				<map:generate src="xml/movie_XML.xml"/>
+				<map:transform type="xslt-saxon" src="xslt/movie_search_all.xsl">
+					<map:parameter name="use-request-parameters" value="true"/>
+				</map:transform>
+				<map:serialize type="html"/>
+			</map:match>
+			<map:match pattern="infomovie.html">
+				<map:generate src="xml/movie_XML.xml"/>
+				<map:transform type="xslt-saxon" src="xslt/movie_search_all.xsl">
+					<map:parameter name="use-request-parameters" value="true"/>
+				</map:transform>
+				<map:serialize type="html"/>
+			</map:match>
 			<!-- Abfrage der zugehoerigen CSS-Dokumente -->
 			<map:match pattern="css/**">
 				<map:read src="css/{1}"/>

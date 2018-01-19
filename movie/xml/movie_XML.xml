@@ -55,7 +55,7 @@
 	<movie id="M3">
 		<title>American History X</title>
 		<genres>
-			<genre> Crime</genre>
+			<genre>Crime</genre>
 			<genre>Drama</genre>
 		</genres>
 		<directors>
@@ -203,7 +203,7 @@
 	<movie id="M9">
 		<title>Fear and Loathing in Las Vegas</title>
 		<genres>
-			<genre> Adventure</genre>
+			<genre>Adventure</genre>
 			<genre>Comedy</genre>
 			<genre>Drama</genre>
 		</genres>
@@ -353,7 +353,7 @@
 	<movie id="M15">
 		<title>District 9</title>
 		<genres>
-			<genre>Scie-Fi</genre>
+			<genre>Sci-Fi</genre>
 			<genre>Thriller</genre>
 		</genres>
 		<directors>
