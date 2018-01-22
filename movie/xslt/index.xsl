@@ -66,18 +66,30 @@
                 <!--SLIDESHOW UPCOMING MOVIES-->
                 <section id="screen1">
                     <h1>UPCOMING MOVIES </h1>
-                    <div class="upcoming">
-                        <xsl:for-each select="//movie[rating=0.0]/title">
-                            <xsl:sort select="."></xsl:sort>
-                            <xsl:if test="position() &lt;= 3">
-                                <xsl:copy-of select="."/>
-                                <img class="up_img">
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="../image/ImageLocation"/>
-                                    </xsl:attribute>
-                                </img>
-                            </xsl:if>
-                        </xsl:for-each>
+                    <div class="block">
+                        <div class="grid">
+                            <xsl:for-each select="//movie[rating=0.0]/title">
+                                <xsl:sort select="."></xsl:sort>
+                                <xsl:variable name="title">
+                                    <xsl:value-of select="."></xsl:value-of>
+                                </xsl:variable>
+                                <xsl:variable name="img_id">
+                                    <xsl:value-of select="../@id"></xsl:value-of>
+                                </xsl:variable>
+                                <xsl:if test="position() &lt;= 3">
+                                    <xsl:copy-of select="."/>
+                                    <form action="movie/movieinfo.html" method="get">
+                                        <button type="submit" name="img_id" value="{$img_id}">
+                                            <img class="allM_imgA" title="{$title}">
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="../image/ImageLocation"/>
+                                                </xsl:attribute>
+                                            </img>
+                                        </button>
+                                    </form>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </div>
                     </div>
                     <div class="down_div">
                         <a href="#screen2">

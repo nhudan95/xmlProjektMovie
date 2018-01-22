@@ -13,12 +13,13 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<link rel="stylesheet" type="text/css" href="css/movie_search.css"/>
+				<title>Search Movie</title>
+				<link rel="stylesheet" type="text/css" href="css/allmovies.css"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Raleway" rel="stylesheet"/>
 			</head>
 			<body>
-				<div class="header">
+				<div class="header" id="header">
 					<div class="logo">
 						<a href="/xmlProjektMovie/">
 							<img src="../img/logo.png" alt="logo"/>
@@ -26,8 +27,17 @@
 					</div>
 					<div class="titel_header">
 						<h1>[
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
-							<xsl:value-of select="$text"/> ]																																																																																																																																																																																																																																																																																																																																																																																																																																																			
+																																			
+							<xsl:choose>
+								<xsl:when test="$search_genre=''">
+									<xsl:value-of select="$text"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="$search_genre"/>
+								</xsl:otherwise>
+							</xsl:choose>
+							]
+																														
 						</h1>
 					</div>
 				</div>
@@ -48,377 +58,150 @@
 				<xsl:if test="$search_type='Country'">
 					<xsl:call-template name="search_country"/>
 				</xsl:if>
+				<div class="up_div">
+					<a href="#header">
+						<img id="up" src="../img/up.png"/>
+					</a>
+				</div>
 			</body>
 		</html>
 	</xsl:template>
 	<xsl:template name="search_all">
-		<xsl:for-each select="//movie[title=$text or ./directors/director=$text or ./countries/country=$text or ./actors/actor=$text]">
-			<div class="img">
-				<a href="infomovie.html">
-					<img class="search_img">
-						<xsl:attribute name="src">
-							<xsl:value-of select="./image/ImageLocation"/>
-						</xsl:attribute>
-					</img>
-				</a>
+		<div class="block">
+			<div class="grid">
+				<xsl:for-each select="//movie[lower-case(title)[contains(., lower-case($text))] or ./directors/director[contains(., $text)] or ./countries/country[contains(., $text)] or ./actors/actor[contains(., $text)]]">
+					<xsl:variable name="title">
+						<xsl:value-of select="./title"></xsl:value-of>
+					</xsl:variable>
+					<xsl:variable name="img_id">
+						<xsl:value-of select="./@id"></xsl:value-of>
+					</xsl:variable>
+					<form action="movieinfo.html" method="get">
+						<button type="submit" name="img_id" value="{$img_id}">
+							<img id="allM_imgA" title="{$title}">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./image/ImageLocation"/>
+								</xsl:attribute>
+							</img>
+						</button>
+					</form>
+				</xsl:for-each>
 			</div>
-			<div class="beschreibung">
-				<div id="rating">
-					<h2>
-						<xsl:value-of select="./rating"/>
-					</h2>
-				</div>
-				<br/>
-				<table>
-					<tr>
-						<td colspan="2">
-							GENRES:
-						</td>
-						<td>
-							<xsl:for-each select="./genres/genre">
-								<xsl:value-of select="."/> |
-																																																																																				
-							</xsl:for-each>
-						</td>
-						<tr>
-							<td>Directors </td>
-							<td>
-								<xsl:value-of select="./directors"/>
-							</td>
-						</tr>
-						<tr>
-							<td>Countries </td>
-							<td>
-								<xsl:value-of select="./countries"/>
-							</td>
-						</tr>
-						<tr>
-							<td>Year </td>
-							<td>
-								<xsl:value-of select="./year"/>
-							</td>
-						</tr>
-						<tr>
-							<td>Actors </td>
-							<td>
-								<xsl:value-of select="./actors"/>
-							</td>
-						</tr>
-					</tr>
-				</table>
-			</div>
-			<!--<table border="1"><tr><td>Title </td><td><xsl:value-of select="./title"/></td></tr><tr><td>Genre </td><td><xsl:value-of select="./genres"/></td></tr><tr><td>Directors </td><td><xsl:value-of select="./directors"/></td></tr><tr><td>Countries </td><td><xsl:value-of select="./countries"/></td></tr><tr><td>Year </td><td><xsl:value-of select="./year"/></td></tr><tr><td>Actors </td><td><xsl:value-of select="./actors"/></td></tr><tr><td>Plot </td><td><xsl:value-of select="./plot"/></td></tr></table>-->
-			<br/>
-		</xsl:for-each>
+		</div>
 	</xsl:template>
 	<xsl:template name="search_title">
-		<xsl:for-each select="//movie[title=$text]">
-			<table border="1">
-				<tr>
-					<td>Title </td>
-					<td>
-						<xsl:value-of select="./title"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Genre </td>
-					<td>
-						<xsl:value-of select="./genres"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Directors </td>
-					<td>
-						<xsl:value-of select="./directors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Countries </td>
-					<td>
-						<xsl:value-of select="./countries"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Year </td>
-					<td>
-						<xsl:value-of select="./year"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Actors </td>
-					<td>
-						<xsl:value-of select="./actors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Rating </td>
-					<td>
-						<xsl:value-of select="./rating"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Plot </td>
-					<td>
-						<xsl:value-of select="./plot"/>
-					</td>
-				</tr>
-				<td>
-					<img>
-						<xsl:attribute name="src">
-							<xsl:value-of select="./image/ImageLocation"/>
-						</xsl:attribute>
-					</img>
-				</td>
-			</table>
-			<br/>
-		</xsl:for-each>
+		<div class="block">
+			<div class="grid">
+				<xsl:for-each select="//movie[lower-case(title)[contains(., lower-case($text))]]">
+					<xsl:variable name="title">
+						<xsl:value-of select="./title"></xsl:value-of>
+					</xsl:variable>
+					<xsl:variable name="img_id">
+						<xsl:value-of select="./@id"></xsl:value-of>
+					</xsl:variable>
+					<form action="movieinfo.html" method="get">
+						<button type="submit" name="img_id" value="{$img_id}">
+							<img id="allM_imgA" titel="{$title}">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./image/ImageLocation"/>
+								</xsl:attribute>
+							</img>
+						</button>
+					</form>
+				</xsl:for-each>
+			</div>
+		</div>
 	</xsl:template>
 	<xsl:template name="search_actor">
-		<xsl:for-each select="//movie[./actors/actor=$text]">
-			<table border="1">
-				<tr>
-					<td>Title </td>
-					<td>
-						<xsl:value-of select="./title"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Genre </td>
-					<td>
-						<xsl:value-of select="./genres"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Directors </td>
-					<td>
-						<xsl:value-of select="./directors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Countries </td>
-					<td>
-						<xsl:value-of select="./countries"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Year </td>
-					<td>
-						<xsl:value-of select="./year"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Actors </td>
-					<td>
-						<xsl:value-of select="./actors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Rating </td>
-					<td>
-						<xsl:value-of select="./rating"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Plot </td>
-					<td>
-						<xsl:value-of select="./plot"/>
-					</td>
-				</tr>
-				<td>
-					<img>
-						<xsl:attribute name="src">
-							<xsl:value-of select="./image/ImageLocation"/>
-						</xsl:attribute>
-					</img>
-				</td>
-			</table>
-			<br/>
-		</xsl:for-each>
+		<div class="block">
+			<div class="grid">
+				<xsl:for-each select="//movie[actors/actor[contains(., $text)]]">
+					<xsl:variable name="title">
+						<xsl:value-of select="./title"></xsl:value-of>
+					</xsl:variable>
+					<xsl:variable name="img_id">
+						<xsl:value-of select="./@id"></xsl:value-of>
+					</xsl:variable>
+					<form action="movieinfo.html" method="get">
+						<button type="submit" name="img_id" value="{$img_id}">
+							<img id="allM_imgA" title="{$title}">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./image/ImageLocation"/>
+								</xsl:attribute>
+							</img>
+						</button>
+					</form>
+				</xsl:for-each>
+			</div>
+		</div>
 	</xsl:template>
 	<xsl:template name="search_director">
-		<xsl:for-each select="//movie[./directors/director=$text]">
-			<table border="1">
-				<tr>
-					<td>Title </td>
-					<td>
-						<xsl:value-of select="./title"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Genre </td>
-					<td>
-						<xsl:value-of select="./genres"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Directors </td>
-					<td>
-						<xsl:value-of select="./directors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Countries </td>
-					<td>
-						<xsl:value-of select="./countries"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Year </td>
-					<td>
-						<xsl:value-of select="./year"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Actors </td>
-					<td>
-						<xsl:value-of select="./actors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Rating </td>
-					<td>
-						<xsl:value-of select="./rating"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Plot </td>
-					<td>
-						<xsl:value-of select="./plot"/>
-					</td>
-				</tr>
-				<td>
-					<img>
-						<xsl:attribute name="src">
-							<xsl:value-of select="./image/ImageLocation"/>
-						</xsl:attribute>
-					</img>
-				</td>
-			</table>
-			<br/>
-		</xsl:for-each>
+		<div class="block">
+			<div class="grid">
+				<xsl:for-each select="//movie[./directors/director[contains(., $text)]]">
+					<xsl:variable name="title">
+						<xsl:value-of select="./title"></xsl:value-of>
+					</xsl:variable>
+					<xsl:variable name="img_id">
+						<xsl:value-of select="./@id"></xsl:value-of>
+					</xsl:variable>
+					<form action="movieinfo.html" method="get">
+						<button type="submit" name="img_id" value="{$img_id}">
+							<img id="allM_imgA" title="{$title}">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./image/ImageLocation"/>
+								</xsl:attribute>
+							</img>
+						</button>
+					</form>
+				</xsl:for-each>
+			</div>
+		</div>
 	</xsl:template>
 	<xsl:template name="search_country">
-		<xsl:for-each select="//movie[./countries/country=$text]">
-			<table border="1">
-				<tr>
-					<td>Title </td>
-					<td>
-						<xsl:value-of select="./title"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Genre </td>
-					<td>
-						<xsl:value-of select="./genres"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Directors </td>
-					<td>
-						<xsl:value-of select="./directors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Countries </td>
-					<td>
-						<xsl:value-of select="./countries"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Year </td>
-					<td>
-						<xsl:value-of select="./year"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Actors </td>
-					<td>
-						<xsl:value-of select="./actors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Rating </td>
-					<td>
-						<xsl:value-of select="./rating"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Plot </td>
-					<td>
-						<xsl:value-of select="./plot"/>
-					</td>
-				</tr>
-				<td>
-					<img>
-						<xsl:attribute name="src">
-							<xsl:value-of select="./image/ImageLocation"/>
-						</xsl:attribute>
-					</img>
-				</td>
-			</table>
-			<br/>
-		</xsl:for-each>
+		<div class="block">
+			<div class="grid">
+				<xsl:for-each select="//movie[./countries/country[contains(., $text)]]">
+					<xsl:variable name="title">
+						<xsl:value-of select="./title"></xsl:value-of>
+					</xsl:variable>
+					<xsl:variable name="img_id">
+						<xsl:value-of select="./@id"></xsl:value-of>
+					</xsl:variable>
+					<form action="movieinfo.html" method="get">
+						<button type="submit" name="img_id" value="{$img_id}">
+							<img id="allM_imgA" title="{$title}">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./image/ImageLocation"/>
+								</xsl:attribute>
+							</img>
+						</button>
+					</form>
+				</xsl:for-each>
+			</div>
+		</div>
 	</xsl:template>
 	<xsl:template name="search_genre">
-		<xsl:for-each select="//movie[./genres/genre=$search_genre]">
-			<table border="1">
-				<tr>
-					<td>Title </td>
-					<td>
-						<xsl:value-of select="./title"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Genre </td>
-					<td>
-						<xsl:value-of select="./genres"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Directors </td>
-					<td>
-						<xsl:value-of select="./directors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Countries </td>
-					<td>
-						<xsl:value-of select="./countries"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Year </td>
-					<td>
-						<xsl:value-of select="./year"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Actors </td>
-					<td>
-						<xsl:value-of select="./actors"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Rating </td>
-					<td>
-						<xsl:value-of select="./rating"/>
-					</td>
-				</tr>
-				<tr>
-					<td>Plot </td>
-					<td>
-						<xsl:value-of select="./plot"/>
-					</td>
-				</tr>
-				<td>
-					<img>
-						<xsl:attribute name="src">
-							<xsl:value-of select="./image/ImageLocation"/>
-						</xsl:attribute>
-					</img>
-				</td>
-			</table>
-			<br/>
-		</xsl:for-each>
+		<div class="block">
+			<div class="grid">
+				<xsl:for-each select="//movie[./genres/genre=$search_genre]">
+					<xsl:variable name="title">
+						<xsl:value-of select="./title"></xsl:value-of>
+					</xsl:variable>
+					<xsl:variable name="img_id">
+						<xsl:value-of select="./@id"></xsl:value-of>
+					</xsl:variable>
+					<form action="movieinfo.html" method="get">
+						<button type="submit" name="img_id" value="{$img_id}">
+							<img id="allM_imgA" title="{$title}">
+								<xsl:attribute name="src">
+									<xsl:value-of select="./image/ImageLocation"/>
+								</xsl:attribute>
+							</img>
+						</button>
+					</form>
+				</xsl:for-each>
+			</div>
+		</div>
 	</xsl:template>
 </xsl:stylesheet>

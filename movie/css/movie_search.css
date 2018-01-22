@@ -30,25 +30,7 @@ position: absolute;
 margin-top: 25px;
   
 }
-.search_img{
- padding-right: 5px;
- width: 20%;
- margin-left: 15%;
- margin-top: 5%;
- float: left;
- 
-}
 
-
-#rating{
-width: 100px;
-height: 40px;
- border: 3px solid #f6b82e;
-    border-radius: 5px;
-margin-left:40%;
-margin-top: 5%;
-
-}
 
 h2
 {
@@ -64,8 +46,3 @@ font-family: 'Oswald', sans-serif;
 position: absolute; 
 }
 
-table{
-    font-family: 'Oswald', sans-serif;
-    position: absolute;
-    margin-left: 40%;
-}

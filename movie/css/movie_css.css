@@ -29,7 +29,7 @@ body{
 }
 
 
- .logo .search{
+.logo .search{
     z-index: 20;
 }
 .logo{
@@ -147,24 +147,32 @@ margin-top:150px;
 text-decoration-line: underline;
 }
 
-.upcoming{
-    z-index: -1;
-    width: 100%;
+
+/*upcoming movies */
+
+.block{
+    position: relative;
+    top: 35%;
+
 }
 
-.up_img{
- float: left;
- padding-right: 5px;
- width: 20%;
- margin-top:15%;
- margin-left: 10%;
- 
-}
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 50px;
+  align-items: stretch;
+  width: 60%;
+  position: relative;
+  margin-left:auto;
+  margin-right: auto;
+  
+  }
+.grid img {
+  max-width: 100%;
+  position: relative;
+  cursor: pointer;
 
-.up_img:hover{
-    opacity: 0.5;
 }
-
 
 
 section {

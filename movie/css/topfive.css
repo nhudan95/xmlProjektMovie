@@ -1,0 +1,130 @@
+* {
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    width: 100%;
+ 
+}
+.header{
+    top: 0;
+    background-color: #e2e2e2;
+    width:100%;
+    height:100px;
+    z-index: 1;
+    left: 0;
+}
+.logo img{
+    height:70px;
+   width: auto;
+   margin-top: 17px;
+   margin-left: 25px;
+   float: left;
+}
+ h1 {
+font-family: 'Oswald', sans-serif;
+margin-left:45%;
+position: absolute;
+margin-top: 25px;
+text-decoration-line: underline;
+  
+}
+
+/*IMG wITH HOVER*/
+.photo-grid {
+	margin: 1em auto;
+	max-width: 1106px;
+    text-align: center;
+    position: relative;
+    top:30%;
+    
+}
+
+.photo-grid li {
+	border: 5px solid white;
+	display: inline-block;
+	margin: 1em;
+    width: 289px;
+}
+
+.photo-grid img {
+	display: block;
+    max-width: 289px;;
+    height: 422.05px;
+    cursor: pointer;
+}
+
+.photo-grid figure {
+	height: auto;
+	overflow: hidden;
+	position: relative;
+    width: 289px;
+   
+}
+
+.photo-grid figcaption {
+	background: rgba(0, 0, 0, 0.80);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index:100;
+}
+
+.photo-grid figcaption p {
+	display: table-cell;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	vertical-align: middle;
+}
+.photo-grid li:hover figcaption {
+	opacity: 1;
+}
+
+.photo-grid figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+    height: auto;
+	max-width: 100%; 
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
+}
+
+.photo-grid li:hover figcaption p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+.photo-grid figcaption {
+	background:#f6b82e;
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+
+/*quelle http://geekgirllife.com/animate-text-over-images-on-hover-without-javascript/*/

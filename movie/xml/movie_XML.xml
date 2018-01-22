@@ -127,8 +127,7 @@
 		</image>
 	</movie>
 	<movie id="M6">
-		<title>Drive
-		</title>
+		<title>Drive		</title>
 		<genres>
 			<genre>Crime</genre>
 			<genre>Drama</genre>
@@ -141,8 +140,8 @@
 		</countries>
 		<year>2011</year>
 		<actors>
-			<actor> Ryan Gosling</actor>
-			<actor> Carey Mulligan</actor>
+			<actor>Ryan Gosling</actor>
+			<actor>Carey Mulligan</actor>
 			<actor>Bryan Cranston</actor>
 		</actors>
 		<rating>7.8</rating>
@@ -215,7 +214,7 @@
 		</countries>
 		<year>1998</year>
 		<actors>
-			<actor> Johnny Depp</actor>
+			<actor>Johnny Depp</actor>
 			<actor>Benicio Del Toro</actor>
 			<actor>Tobey Maguire</actor>
 		</actors>
@@ -241,7 +240,7 @@
 		</countries>
 		<year>2000</year>
 		<actors>
-			<actor> Russell Crowe</actor>
+			<actor>Russell Crowe</actor>
 			<actor>Joaquin Phoenix</actor>
 			<actor>Connie Nielsen</actor>
 		</actors>
@@ -265,7 +264,7 @@
 		</countries>
 		<year>1994</year>
 		<actors>
-			<actor> Tom Hanks</actor>
+			<actor>Tom Hanks</actor>
 			<actor>Robin Wright</actor>
 			<actor>Gary Sinise</actor>
 		</actors>
@@ -317,7 +316,7 @@
 		</countries>
 		<year>2010</year>
 		<actors>
-			<actor> Leonardo DiCaprio</actor>
+			<actor>Leonardo DiCaprio</actor>
 			<actor>Joseph Gordon-Levitt</actor>
 			<actor>Ellen Page</actor>
 		</actors>
@@ -340,7 +339,7 @@
 		</countries>
 		<year>1997</year>
 		<actors>
-			<actor> Robin Williams</actor>
+			<actor>Robin Williams</actor>
 			<actor>Matt Damon</actor>
 			<actor>Ben Affleck</actor>
 		</actors>
@@ -618,8 +617,7 @@
 		<countries>
 			<country>USA</country>
 		</countries>
-		<year>1971
-		</year>
+		<year>1971		</year>
 		<actors>
 			<actor>Paul Erdoes</actor>
 			<actor>Ronald Graham</actor>
@@ -851,11 +849,7 @@
 			<actor>Gabrielle Anwar</actor>
 		</actors>
 		<rating>8.0</rating>
-		<plot>
-			A prep school student needing money agrees to "babysit" a blind man, but the job is not at all what he anticipated.
-			Charlie Simms is a student at the Baird School, an exclusive New Engcountry prep school. Unlike most of his peers,Charlie was not born into a wealthy family, and attends the school on a scholarship. To pay for a flight home to Oregon for Christmas,
-			Charlie accepts a temporary job over Thanksgiving weekend looking after retired Army Ranger Lieutenant Colonel Frank Slade,whom Charlie discovers to be a cantankerous, blind alcoholic.
-		</plot>
+		<plot>			A prep school student needing money agrees to "babysit" a blind man, but the job is not at all what he anticipated.			Charlie Simms is a student at the Baird School, an exclusive New Engcountry prep school. Unlike most of his peers,Charlie was not born into a wealthy family, and attends the school on a scholarship. To pay for a flight home to Oregon for Christmas,			Charlie accepts a temporary job over Thanksgiving weekend looking after retired Army Ranger Lieutenant Colonel Frank Slade,whom Charlie discovers to be a cantankerous, blind alcoholic.		</plot>
 		<image>
 			<ImageLocation>img/img_id34.jpg</ImageLocation>
 		</image>
@@ -881,17 +875,7 @@
 			<actor>Caroline Goodall</actor>
 		</actors>
 		<rating>8.9</rating>
-		<plot>
-			In German-occupied Pocountry during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce
-			after witnessing their persecution by the Nazi Germans.
-			In Kraków during World War II, the Germans had forced local Polish Jews into the overcrowded Kraków Ghetto.
-			Oskar Schindler, an ethnic German, arrives in the city hoping to make his fortune. A member of the Nazi Party,Schindler lavishes bribes on Wehrmacht (German armed forces) and SS officials and acquires a factory to produce
-			enamelware. To help him run the business, Schindler enlists the aid of Itzhak Stern, a local Jewish official who has
-			contacts with black marketeers and the Jewish business community. Stern helps Schindler arrange financing for the factory.
-			Schindler maintains friendly relations with the Nazis and enjoys wealth and status as "Herr Direktor", and Stern handles
-			administration. Schindler hires Jewish workers because they cost less, while Stern ensures that as many people as possible
-			are deemed essential to the German war effort, which saves them from being transported to concentration camps or killed.
-		</plot>
+		<plot>			In German-occupied Pocountry during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce			after witnessing their persecution by the Nazi Germans.			In Kraków during World War II, the Germans had forced local Polish Jews into the overcrowded Kraków Ghetto.			Oskar Schindler, an ethnic German, arrives in the city hoping to make his fortune. A member of the Nazi Party,Schindler lavishes bribes on Wehrmacht (German armed forces) and SS officials and acquires a factory to produce			enamelware. To help him run the business, Schindler enlists the aid of Itzhak Stern, a local Jewish official who has			contacts with black marketeers and the Jewish business community. Stern helps Schindler arrange financing for the factory.			Schindler maintains friendly relations with the Nazis and enjoys wealth and status as "Herr Direktor", and Stern handles			administration. Schindler hires Jewish workers because they cost less, while Stern ensures that as many people as possible			are deemed essential to the German war effort, which saves them from being transported to concentration camps or killed.		</plot>
 		<image>
 			<ImageLocation>img/img_id35.jpg</ImageLocation>
 		</image>
@@ -944,12 +928,7 @@
 			<actor>Jessica Alba</actor>
 		</actors>
 		<rating>8.0</rating>
-		<plot>
-		The Salesman walks onto a penthouse balcony where The Customer looks out over Basin City.
-		He offers her a cigarette and says that she looks like someone who is tired of running and that he
-		will save her. The two share a kiss and he shoots her; she dies in his arms. He says he will never know what she was running from but that he will cash her check in the morning, implying she had
-		paid him to kill her.
-		</plot>
+		<plot>		The Salesman walks onto a penthouse balcony where The Customer looks out over Basin City.		He offers her a cigarette and says that she looks like someone who is tired of running and that he		will save her. The two share a kiss and he shoots her; she dies in his arms. He says he will never know what she was running from but that he will cash her check in the morning, implying she had		paid him to kill her.		</plot>
 		<image>
 			<ImageLocation>img/img_id37.jpg</ImageLocation>
 		</image>
@@ -974,11 +953,7 @@
 			<actor>Albert Brooks</actor>
 		</actors>
 		<rating>8.3</rating>
-		<plot>
-			A mentally unstable veteran works as a nighttime taxi driver in New York City,
-			where the perceived decadence and sleaze fuels his urge for violent action,
-			while attempting to liberate a twelve-year-old prostitute.
-		</plot>
+		<plot>			A mentally unstable veteran works as a nighttime taxi driver in New York City,			where the perceived decadence and sleaze fuels his urge for violent action,			while attempting to liberate a twelve-year-old prostitute.		</plot>
 		<image>
 			<ImageLocation>img/img_id38.jpg</ImageLocation>
 		</image>
@@ -1078,17 +1053,7 @@
 			<actor>Charlize Theron</actor>
 		</actors>
 		<rating>7.0</rating>
-		<plot>
-			After being betrayed and left for dead in Italy, Charlie Croker and his team plan
-			an elaborate gold heist against their former ally.
-			John Bridger, a professional safecracker, has assembled a team to steal 35 million
-			dollars worth of gold bullion from a safe in Venice, held by Italian gangsters who had
-			stolen it weeks earlier. The team includes Charlie Croker, a professional thief;
-			Lyle or "Napster", a computer expert; Handsome Rob, their wheelman; Steve, their
-			inside man; and Left Ear, their explosives expert. The heist is successful, but as they
-			drive towards Austria with the bullion, they are stopped by men loyal to Steve, who had
-			turned on them and takes the bullion for himself.
-		</plot>
+		<plot>			After being betrayed and left for dead in Italy, Charlie Croker and his team plan			an elaborate gold heist against their former ally.			John Bridger, a professional safecracker, has assembled a team to steal 35 million			dollars worth of gold bullion from a safe in Venice, held by Italian gangsters who had			stolen it weeks earlier. The team includes Charlie Croker, a professional thief;			Lyle or "Napster", a computer expert; Handsome Rob, their wheelman; Steve, their			inside man; and Left Ear, their explosives expert. The heist is successful, but as they			drive towards Austria with the bullion, they are stopped by men loyal to Steve, who had			turned on them and takes the bullion for himself.		</plot>
 		<image>
 			<ImageLocation>img/img_id42.jpg</ImageLocation>
 		</image>
@@ -1115,10 +1080,7 @@
 			<actor>Derek Jacobi</actor>
 		</actors>
 		<rating>8.0</rating>
-		<plot>
-			The story of King George VI of the United Kingdom of Great Britain and Northern Irecountry, his impromptu ascension to the throne and the speech therapist who helped
-			the unsure monarch become worthy of it.
-		</plot>
+		<plot>			The story of King George VI of the United Kingdom of Great Britain and Northern Irecountry, his impromptu ascension to the throne and the speech therapist who helped			the unsure monarch become worthy of it.		</plot>
 		<image>
 			<ImageLocation>img/img_id43.jpg</ImageLocation>
 		</image>
@@ -1144,11 +1106,7 @@
 			<actor>Kerry Washington</actor>
 		</actors>
 		<rating>0.0</rating>
-		<plot>
-			In 1970, Nicholas Garrigan graduates from medical school at the University of
-			Edinburgh.[4] With dull prospects at home, he decides to seek adventure abroad by working at a Ugandan missionary clinic run by Dr. David Merrit (Adam Kotz) and
-			Merrit's wife, Sarah. Garrigan becomes attracted to Sarah, who enjoys the attention, but refuses to engage in an extramarital affair.
-		</plot>
+		<plot>			In 1970, Nicholas Garrigan graduates from medical school at the University of			Edinburgh.[4] With dull prospects at home, he decides to seek adventure abroad by working at a Ugandan missionary clinic run by Dr. David Merrit (Adam Kotz) and			Merrit's wife, Sarah. Garrigan becomes attracted to Sarah, who enjoys the attention, but refuses to engage in an extramarital affair.		</plot>
 		<image>
 			<ImageLocation>img/img_id44.jpg</ImageLocation>
 		</image>
@@ -1258,10 +1216,188 @@
 			<ImageLocation>img/img_id48.jpg</ImageLocation>
 		</image>
 	</movie>
+	<movie id="M49">
+		<title>You Were Never Really Here</title>
+		<genres>
+			<genre>Drama</genre>
+			<genre>Mystery</genre>
+			<genre>Thriller</genre>
+		</genres>
+		<directors>
+			<director>Lynne Ramsay</director>
+		</directors>
+		<countries>
+			<country>Germany</country>
+		</countries>
+		<year>2017</year>
+		<actors>
+			<actor>Joaquin Phoenix</actor>
+			<actor>Ekaterina Samsonov</actor>
+			<actor>Alessandro Nivola</actor>
+		</actors>
+		<rating>7.4</rating>
+		<plot>A tormented but brutal hired gun sets out to rescue a young girl from a sex ring, only to find himself weathering a storm of violent vengeance when matters go awry.</plot>
+		<image>
+			<ImageLocation>img/img_id49.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M50">
+		<title>Z for Zachariah</title>
+		<genres>
+			<genre>Drama</genre>
+			<genre>Sci-Fi</genre>
+			<genre>Thriller</genre>
+		</genres>
+		<directors>
+			<director>Craig Zobel</director>
+		</directors>
+		<countries>
+			<country>USA</country>
+		</countries>
+		<year>2015</year>
+		<actors>
+			<actor>Chiwetel Ejiofor</actor>
+			<actor>Chris Pine</actor>
+			<actor>Robert C. O'Brien</actor>
+		</actors>
+		<rating>6.0</rating>
+		<plot>In the wake of a disaster that wipes out most of civilization, two men and a young woman find themselves in an emotionally charged love triangle as the last known survivors.</plot>
+		<image>
+			<ImageLocation>img/img_id50.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M51">
+		<title>Cinderella</title>
+		<genres>
+			<genre>Drama</genre>
+			<genre>Family</genre>
+			<genre>Fantasy</genre>
+		</genres>
+		<directors>
+			<director>Kenneth Branagh</director>
+		</directors>
+		<countries>
+			<country>USA</country>
+			<country>UK</country>
+		</countries>
+		<year>2015</year>
+		<actors>
+			<actor>Lily James</actor>
+			<actor>Cate Blanchett</actor>
+			<actor>Richard Madden</actor>
+		</actors>
+		<rating>6.9</rating>
+		<plot>A girl named Ella (Cinderella) has the purest heart living in a cruel world filled with evil stepsisters and an evil stepmother out to ruin Ella's life. Ella comes one with her pure heart when she meets the prince and dances her way to a better life with glass shoes, and a little help from her fairy godmother, of course.</plot>
+		<image>
+			<ImageLocation>img/img_id51.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M52">
+		<title>V for Vendetta</title>
+		<genres>
+			<genre>Drama</genre>
+			<genre>Action</genre>
+			<genre>Sci-Fi</genre>
+			<genre>Thriller</genre>
+		</genres>
+		<directors>
+			<director>James McTeigue</director>
+		</directors>
+		<countries>
+			<country>USA</country>
+			<country>UK</country>
+			<country>Germany</country>
+		</countries>
+		<year>2005</year>
+		<actors>
+			<actor>Hugo Weaving</actor>
+			<actor>Natalie Portman</actor>
+			<actor>Rupert Graves</actor>
+		</actors>
+		<rating>8.2</rating>
+		<plot>Tells the story of Evey Hammond and her unlikely but instrumental part in bringing down the fascist government that has taken control of a futuristic Great Britain. Saved from a life-and-death situation by a man in a Guy Fawkes mask who calls himself V, she learns a general summary of V's past and, after a time, decides to help him bring down those who committed the atrocities that led to Britain being in the shape that it is in.</plot>
+		<image>
+			<ImageLocation>img/img_id52.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M53">
+		<title>World War Z</title>
+		<genres>
+			<genre>Adventure</genre>
+			<genre>Action</genre>
+			<genre>Horror</genre>
+		</genres>
+		<directors>
+			<director>Marc Forster</director>
+		</directors>
+		<countries>
+			<country>USA</country>
+		</countries>
+		<year>2013</year>
+		<actors>
+			<actor>Brad Pitt</actor>
+			<actor>Mireille Enos</actor>
+			<actor>Daniella Kertesz</actor>
+		</actors>
+		<rating>7.0</rating>
+		<plot>Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies. After barely escaping the chaos, Lane is persuaded to go on a mission to investigate this disease. What follows is a perilous trek around the world where Lane must brave horrific dangers and long odds to find answers before human civilization falls.</plot>
+		<image>
+			<ImageLocation>img/img_id53.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M54">
+		<title>X-Men</title>
+		<genres>
+			<genre>Adventure</genre>
+			<genre>Action</genre>
+			<genre>Sci-Fi</genre>
+		</genres>
+		<directors>
+			<director>Bryan Singer</director>
+		</directors>
+		<countries>
+			<country>USA</country>
+		</countries>
+		<year>2000</year>
+		<actors>
+			<actor>Patrick Stewart</actor>
+			<actor>Hugh Jackman</actor>
+			<actor>Ian McKellen</actor>
+		</actors>
+		<rating>7.4</rating>
+		<plot>In a world where both Mutants and Humans fear each other, Marie, better known as Rogue, runs away from home and hitches a ride with another mutant, known as Logan, a.k.a. Wolverine. Charles Xavier, who owns a school for young mutants, sends Storm and Cyclops to bring them back before it is too late. Magneto, who believes a war is approaching, has an evil plan in mind, and needs young Rogue to help him.</plot>
+		<image>
+			<ImageLocation>img/img_id54.jpg</ImageLocation>
+		</image>
+	</movie>
+	<movie id="M55">
+		<title>U-571</title>
+		<genres>
+			<genre>War</genre>
+			<genre>Action</genre>
+		</genres>
+		<directors>
+			<director>Jonathan Mostow</director>
+		</directors>
+		<countries>
+			<country>USA</country>
+			<country>France</country>
+		</countries>
+		<year>2000</year>
+		<actors>
+			<actor>Matthew McConaughey</actor>
+			<actor>Bill Paxton</actor>
+			<actor>Harvey Keitel</actor>
+		</actors>
+		<rating>6.6</rating>
+		<plot>In the midst of World War II, the battle below the seas rages. The Nazis have the upper edge as the Allies are unable to crack their war codes. That is, until a wrecked U-boat sends out an SOS signal, and the Allies realize this is their chance to seize the 'enigma coding machine'. But masquerading as Nazis and taking over the U-boat is the smallest of their problems. The action really begins when they get stranded on the U-boat.</plot>
+		<image>
+			<ImageLocation>img/img_id55.jpg</ImageLocation>
+		</image>
+	</movie>
 </movies>
 <!--
 15 Mariia a-i film ids: 1-15, image names: img_id1.jpg 
 15 Dan j - q film ids: 16-30
 15 Christiane r - z film ids 31 - 45
 -->
-

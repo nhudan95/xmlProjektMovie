@@ -1,0 +1,99 @@
+* {
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    width: 100%;
+ 
+}
+.header{
+    top: 0;
+    background-color: #e2e2e2;
+    width:100%;
+    height:100px;
+    z-index: 1;
+    left: 0;
+}
+.logo img{
+    height:70px;
+   width: auto;
+   margin-top: 17px;
+   margin-left: 25px;
+   float: left;
+}
+
+ h1 {
+font-family: 'Oswald', sans-serif;
+margin-left:45%;
+position: absolute;
+margin-top: 25px;
+
+  
+}
+
+#abc{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+#abc a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+      text-decoration-line: underline;
+}
+#abc a:hover{
+    text-decoration-line: underline;
+    color:#f6b82e;
+}
+
+#up {
+    height:50px;
+    position: fixed;
+    top: 90%;
+    left: 93%;
+}
+
+
+/*BILDER GRID*/
+
+.block{
+    position: relative;
+    margin-top: 6%;
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  width: 60%;
+  position: relative;
+  margin-left:auto;
+  margin-right: auto;
+  }
+
+.grid img {
+  max-width: 100%;
+  height: 341.83px;
+  cursor: pointer;
+
+}
+
+
+p {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    left:15%;
+    font-size: 2em;
+}
+
+#up{
+    height:50px;
+    position: fixed;
+    top: 90%;
+    left: 93%;
+}
